@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=newController
+comment0.target=RomanPlugin(model.CalcController)
+comment0.text=\r\n\ Constructor\ for\ RomanPlugin.\r\n\ @param\ newController\ A\ controller\ for\ this\ plugin's\ parent\ gui.\r\n
+comment1.params=e
+comment1.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment2.params=
+comment2.target=views.Numpad\ getNumpad()
+comment2.text=\r\n\ {@inheritDoc}\r\n
+comment3.params=
+comment3.target=views.ControlPanel\ getControlPanel()
+comment3.text=\r\n\ {@inheritDoc}\r\n
+comment4.params=
+comment4.target=model.Calculator\ getCalculator()
+comment4.text=\r\n\ {@inheritDoc}\r\n
+comment5.params=
+comment5.target=void\ unload()
+comment5.text=\r\n\ {@inheritdoc}\r\n
+numComments=6

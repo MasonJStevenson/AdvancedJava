@@ -1,0 +1,9 @@
+shi 1000
+nav 1 1
+srs
+pha -1
+pha a
+pha 2001
+pha 300
+srs
+pha 500

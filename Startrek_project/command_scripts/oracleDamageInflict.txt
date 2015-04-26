@@ -1,0 +1,12 @@
+Your orders are as follows:
+   Destroy the 15 Klingon warships which have invaded
+the galaxy before they can attack Federation Headquarters
+on stardate 2134. This gives you 34 days. There are
+ 2 starbases in the galaxy for resupplying your ship.
+Your mission begins with your starship located
+in the galactic quadrant Deneb.
+Damage Control report:
+    Library-Computer state of repair improved
+Damage Control report:
+    Photon Tubes damaged
+

@@ -1,0 +1,403 @@
+package universe;
+
+import starships.*;
+import util.*;
+
+
+/**
+ * Write a description of class Quadrant here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class Quadrant
+{
+    private SectorObject[][] sectors = new SectorObject[9][9];
+    int enemyNum;
+    int baseNum;
+    int starNum;
+    int baseRow; //location of base in quadrant (if any)
+    int baseCol; //location of base in quadrant (if any)
+    String name = "NO NAME";
+    double repairDuration;
+    Galaxy galaxy;
+    private int[][] enemyData;
+    
+    public Quadrant(int newEnemy, int newBase, int newStar, Galaxy newGal)
+    {
+        enemyNum = newEnemy;
+        baseNum = newBase;
+        starNum = newStar;
+        galaxy = newGal;
+        enemyData = new int[4][4];
+    }
+    
+    //HAPPENS WHEN A SHIP ENTERS THIS QUADRANT
+    public void generate(Starship ship, SpaceMath math)
+    {
+        int shipQRow = ship.getQuadrantRow();
+        int shipQCol = ship.getQuadrantCol();
+       
+        repairDuration = (double) math.get_rand(100) / 100 / 50;
+        
+        //save quadrant in galactic record
+        ((LibraryComputer)ship.getSystems().get("com")).addToRecord(ship.getQuadrantRow(), ship.getQuadrantCol(), ship.getQuadrant().toInt());
+
+        
+        if (shipQRow >= 1 && shipQRow <= 8 
+            && shipQCol >= 1 && shipQCol <= 8)
+        {
+            //genName(shipQRow, shipQCol);
+
+            // Are we at the initial stardate?
+            if (galaxy.getTime().getCurrent() - galaxy.getTime().getStart() > 0.01)
+            {
+                System.out.printf("Now entering %s quadrant...\n ", name);
+            }
+            else
+            {
+                System.out.printf("Your mission begins with your starship located\n");
+                System.out.printf("in the galactic quadrant %s.\n", name);
+            }
+        }
+
+        if (enemyNum > 0)
+        {
+            System.out.printf("Combat Area  Condition Red\n");
+
+            if (ship.getShields() < 200)
+            {
+                System.out.printf("Shields Dangerously Low\n");
+            }
+        }
+        
+        for (int count = 1; count <= 3; count++)
+        {
+            enemyData[count][1] = 0;
+            enemyData[count][2] = 0;
+            enemyData[count][3] = -1;  // indicate not alive
+        }
+
+        //place space
+        genSpace();
+        
+
+        // Position Enterprise, then Klingons, Starbases, and stars 
+        //   in new quadrant
+        
+        genShip(math.cint(ship.getSectorRow()),
+            math.cint(ship.getSectorCol()));
+
+        genEnemies(math);
+        genBases(math);
+        genStars(math);
+    }
+    
+    public void genName(int row, int col)
+    {
+        String[] quad_name = {"","Antares","Rigel","Procyon","Vega",
+                "Canopus","Altair","Sagittarius","Pollux","Sirius","Deneb","Capella",
+                "Betelgeuse","Aldebaran","Regulus","Arcturus","Spica"};
+
+        String[] sect_name = {""," I"," II"," III"," IV"};
+        
+        String temp;
+
+        
+        if (row < 1 || row > 8 || col < 1 || col > 8)
+            temp = "Unknown";
+
+        if (col <= 4)
+            temp = quad_name[row];
+
+        else
+            temp = quad_name[row + 8];
+
+
+        if (col != 1)
+        {
+            if (col > 4)
+            {
+                col = col - 4;
+            }
+
+            //BUG?
+            temp.concat(sect_name[col]);
+            //strcat(sG2, sect_name[z5]);
+        }
+        
+        name = temp;
+    }
+    
+    public void enemiesMove(SpaceMath math, Starship ship)
+    {
+        int enemyRow;
+        int enemyCol;
+
+        for (int count = 1; count <= 3; count++)
+        {
+            //if still have energy
+            if (enemyData[count][3] > 0)
+            {
+                enemyRow = enemyData[count][1];
+                enemyCol = enemyData[count][2];
+                sectors[enemyRow][enemyCol] = new EmptySpace();
+
+                do
+                {
+                    enemyRow = math.function_r();
+                    enemyCol = math.function_r();
+                }while(!checkEmpty(enemyRow, enemyCol));
+
+                enemyData[count][1] = enemyRow;
+                enemyData[count][2] = enemyCol;
+                sectors[enemyRow][enemyCol] = new EnemyShip();
+            }
+        }
+
+        enemiesShoot(math, ship);
+    }
+    
+    public void enemiesShoot(SpaceMath math, Starship ship)
+    {
+        ///int h, i;
+        int damage;
+        boolean continuePlaying = true;
+        String[] keys;
+        int systemNum;
+        Subsystem targetSystem;
+        
+        if (enemyNum <= 0)
+        {
+            return;
+        }
+
+        if (ship.isDocked())
+        {
+            System.out.println("Starbase shields protect the Enterprise\n");
+            return;
+        }
+        
+        // Check each potential attacker
+        for (int count = 1; count <= 3; count++)
+        {
+            // If we're killed by first klingon, we don't need to consider
+            // the attacks by the others
+            // only let them shoot if they have energy
+            if (enemyData[count][3] > 0 && continuePlaying)
+            {    
+                damage = (int) ((enemyData[count][3] / calculateDamage(
+                    count, ship.getSectorRow(), ship.getSectorCol())) * (2 + math.rnd()));
+                ship.setShields(ship.getShields() - damage);
+                enemyData[count][3] = (int)   ( (double)enemyData[count][3] / (3.0 + math.rnd()));
+
+                System.out.print(String.format("%d unit hit on Enterprise from sector ", damage));
+                System.out.print(String.format("%d, %d", enemyData[count][1], enemyData[count][2]));
+
+                if (ship.getShields() <= 0)
+                {
+                    System.out.print("\n");
+                    ship.setDestroyed(true);
+                }
+                
+                else
+                {
+                    System.out.print(String.format("    <Shields down to %d units>\n", ship.getShields()));
+    
+                    if (damage >= 20)
+                    {
+                        if (math.rnd() <= 0.6 || (damage / ship.getShields()) > 0.2)
+                        {
+                            systemNum = math.function_r();
+                            keys = ship.getKeys();
+                            targetSystem = ship.getSystems().get(keys[systemNum - 1]);
+                            
+                            targetSystem.setDamage(targetSystem.getDamage() - (damage / ship.getShields()) - (0.5 * math.rnd()));
+    
+                            System.out.print("Damage Control reports\n");
+                            System.out.print(String.format("   '%s' damaged by hit\n", targetSystem.getName()));
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    private int calculateDamage(int row, double targetRow, double targetCol)
+    {
+        int dam;
+
+        dam = (int) Math.sqrt(Math.pow((enemyData[row][1] - targetRow), 2) 
+            + Math.pow((enemyData[row][2] - targetCol), 2));
+
+        return dam;
+    }
+    
+    private void genSpace()
+    {
+        for (int row = 1; row <= 8; row++)
+        { 
+            for (int col = 1; col <= 8; col++)
+            {
+                sectors[row][col] = new EmptySpace();
+            }
+        }
+    }
+    
+    private void genShip(int shipRow, int shipCol)
+    {
+        sectors[shipRow][shipCol] = new PlayerShip();
+    }
+    
+    private void genEnemies(SpaceMath math)
+    {
+        int row;
+        int col;
+        
+        if (enemyNum > 0)
+        {
+            for (int count = 1; count <= enemyNum; count++)
+            {
+                //get empty space
+                do
+                {
+                    row = math.function_r();
+                    col = math.function_r();
+                }while(!checkEmpty(row, col));
+                
+                sectors[row][col] = new EnemyShip();
+
+                // Gen Enemy Stats
+               enemyData[count][1] = row;
+               enemyData[count][2] = col;
+               enemyData[count][3] = 100 + math.get_rand(200);
+            }
+        }
+    }
+    
+    private void genBases(SpaceMath math)
+    {
+        int row;
+        int col;
+        
+        // position a starbase
+        // Defect?  Should this be a loop inside a decision? 
+        //          Like the previous segment? 
+        // It seems to assume there's only one starbase per quadrant
+        if (baseNum > 0)
+        {
+            //get empty space
+            do
+            {
+                row = math.function_r();
+                col = math.function_r();
+            }while(!checkEmpty(row, col));
+
+            sectors[row][col] = new Starbase();
+            
+            baseRow = row;
+            baseCol = col;
+        }
+    }
+    
+    private void genStars(SpaceMath math)
+    {
+        int row;
+        int col;
+        
+        // Notice the stars get repositioned every time you enter a quadrant.
+        // A more realistic simulation would put the stars in the same place.
+        for (int count = 1; count <= starNum; count++)
+        {
+            //get empty space
+            do
+            {
+                row = math.function_r();
+                col = math.function_r();
+            }while(!checkEmpty(row, col));
+            
+            sectors[row][col] = new Star();
+        }
+    }
+    
+    public int[][] getEnemyData()
+    {
+        return enemyData;
+    }
+    
+    public boolean checkEmpty(int row, int col)
+    {
+        return sectors[row][col].toString().equals("   ");
+    }
+    
+    public double getRepairDuration()
+    {
+        return repairDuration;
+    }
+    
+    public int getBaseRow()
+    {
+        return baseRow;
+    }
+    
+    public int getBaseCol()
+    {
+        return baseCol;
+    }
+    
+    public int getEnemyNum()
+    {
+        return enemyNum;
+    }
+    
+    public void enemyDestroyed()
+    {
+        enemyNum--;
+        galaxy.enemyDestroyed();
+    }
+    
+    public int getBaseNum()
+    {
+        return baseNum;
+    }
+    
+    public int getStarNum()
+    {
+        return starNum;
+    }
+    
+    public String getName()
+    {
+        return name;
+    }
+    
+    public SectorObject[][] getSectors()
+    {
+        return sectors;
+    }
+    
+    public SectorObject getSector(int row, int col)
+    {
+        return sectors[row][col];
+    }
+    
+    public void setEnemyNum(int newNum)
+    {
+        enemyNum = newNum;
+    }
+    
+    public void setBaseNum(int newNum)
+    {
+        baseNum = newNum;
+    }
+    
+    public void setStarNum(int newNum)
+    {
+        starNum = newNum;
+    }
+    
+    public int toInt()
+    {
+        return enemyNum * 100 + baseNum * 10 + starNum;
+    }
+}

@@ -1,0 +1,114 @@
+
+ *************************************
+ *                                   *
+ *                                   *
+ *      * * Super Star Trek * *      *
+ *                                   *
+ *                                   *
+ *************************************
+Do you need instructions (y/n):
+                         ------*------
+         -------------   `---  ------'
+         `-------- --'      / /
+                  \\-------  --
+                  '-----------'
+
+       The USS Enterprise --- NCC - 1701-0
+
+
+Your orders are as follows:
+   Destroy the 15 Klingon warships which have invaded
+the galaxy before they can attack Federation Headquarters
+on stardate 2134. This gives you 34 days. There are
+ 2 starbases in the galaxy for resupplying your ship.
+
+Your mission begins with your starship located
+in the galactic quadrant Deneb.
+  -1--2--3--4--5--6--7--8-
+1                             Stardate            2100
+2        *                    Condition           GREEN
+3  *                          Quadrant            2, 5
+4           *                 Sector              6, 3
+5                 *           Photon Torpedoes    10
+6       <0>                   Total Energy        3000
+7                 *           Shields             0
+8                 *           Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Now entering Capella quadrant...
+   -1--2--3--4--5--6--7--8-
+1                       *     Stardate            2102
+2                             Condition           GREEN
+3     *                       Quadrant            3, 5
+4     *                       Sector              6, 3
+5           *                 Photon Torpedoes    10
+6       <0>                   Total Energy        2964
+7                             Shields             0
+8                             Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+LT. Uhura reports:
+  Message from Starfleet Command:
+  Permission to attempt crossing of galactic perimeter
+  is hereby *denied*. Shut down your engines.
+Chief Engineer Scott reports:
+  Warp Engines shut down at sector 6, 8 of quadrant 3, 8.
+Now entering Capella quadrant...
+ Combat Area  Condition Red
+Shields Dangerously Low
+  -1--2--3--4--5--6--7--8-
+1                             Stardate            2104
+2                             Condition           *RED*
+3     *                       Quadrant            3, 8
+4        *        *           Sector              6, 8
+5       +K+                   Photon Torpedoes    10
+6        *  *          <0>    Total Energy        2880
+7                             Shields             0
+8                   >!<       Klingons Remaining  15
+  ------------------------
+
+Command? 
+Energy available = 2880
+Input number of units to Shields: 
+Deflector Control Room report:
+  'Shields now at 1000 units per your command.'
+Command? 
+Computer active and awating command: 
+  DIRECTION = 6.50
+  DISTANCE = 2.00
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+318 unit hit on Enterprise from sector 6, 7    <Shields down to 682 units>
+Damage Control report:
+
+    Photon Tubes damaged
+
+Shields dropped for docking purposes.
+  -1--2--3--4--5--6--7--8-
+1                             Stardate            2104
+2                             Condition           DOCKED
+3     *                       Quadrant            3, 8
+4        *        *           Sector              7, 8
+5                             Photon Torpedoes    10
+6        *  *       +K+       Total Energy        3000
+7                      <0>    Shields             0
+8                   >!<       Klingons Remaining  15
+  ------------------------
+
+Command? 
+There were 15 Klingon Battlecruisers left at the end of your mission.
+The Federation is in need of a new starship commander for a similar mission.
+If there is a volunteer, let him step forward and enter 'aye': 
+
+
+

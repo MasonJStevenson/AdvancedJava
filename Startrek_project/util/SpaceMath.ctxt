@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=seed
+comment0.target=void\ randomize(int)
+comment0.text=\ \r\n\ Seed\ the\ randomizer\ with\ the\ timer.\r\n\ @param\ seed\ an\ initial\ value\ for\ the\ randomizer.\r\n
+comment1.params=iSpread
+comment1.target=int\ getRand(int)
+comment1.text=\ \r\n\ Returns\ an\ integer\ from\ 1\ to\ iSpread.\r\n\ @param\ iSpread\ a\ the\ range.\r\n\ @return\ Returns\ an\ integer\ from\ 1\ to\ iSpread\ \r\n
+comment2.params=
+comment2.target=double\ rnd()
+comment2.text=\r\n\ gets\ a\ random\ number.\r\n\ @return\ returns\ the\ random\ number.\r\n
+comment3.params=
+comment3.target=int\ functionR()
+comment3.text=\r\n\ Gets\ a\ random\ number\ from\ 1\ to\ kEnterpriseSystemNum;\r\n\ @return\ returns\ the\ random\ number.\r\n
+comment4.params=target
+comment4.target=int\ cint(double)
+comment4.text=\r\n\ Rounds\ double\ up\ to\ the\ nearest\ int.\r\n\ @param\ target\ the\ double\ to\ round\r\n\ @return\ returns\ the\ rounded\ double.\r\n
+numComments=5

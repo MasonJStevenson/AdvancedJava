@@ -1,0 +1,37 @@
+shi 1000
+nav 1 .1
+nav 3 4
+tor 8
+nav 3 2
+pha 500
+pha 200 
+nav 5 7 
+lrs 
+nav 1 1 
+pha 600 
+pha 100 
+nav 5 .2 
+nav 7 5 
+tor 7 
+nav 3 2 
+nav 3 .1 
+nav 1 1
+nav 1 .4 
+pha 300 
+tor  7.3 
+nav 7 .2 
+nav 1 1 
+tor 1 
+lrs 
+nav 1 1 
+shi 300 
+nav 1 1 
+nav 1 .1 
+nav 7 3 
+shi 500 
+nav 7 .3 
+nav 5 .2 
+com 
+nav 5 .1
+nav 1 .1
+tor 2

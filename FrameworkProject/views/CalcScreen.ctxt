@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CalcScreen()
+comment0.text=\r\n\ Constructor\ for\ CalcScreen.\r\n
+comment1.params=text\ useLog
+comment1.target=void\ print(java.lang.String,\ boolean)
+comment1.text=\r\n\ Prints\ some\ text\ to\ the\ calculator\ screen.\r\n\ @param\ text\ The\ text\ to\ print.\r\n\ @param\ useLog\ If\ useLog\ is\ true,\ the\ string\ is\ appended\ to\ the\ log.\r\n
+comment2.params=useLog
+comment2.target=void\ println(boolean)
+comment2.text=\r\n\ Prints\ a\ newline\ character\ to\ the\ calculator\ screen.\r\n\ @param\ useLog\ If\ useLog\ is\ true,\ the\ string\ is\ appended\ to\ the\ log.\r\n
+comment3.params=text\ useLog
+comment3.target=void\ println(java.lang.String,\ boolean)
+comment3.text=\r\n\ Prints\ some\ text\ to\ the\ calculator\ screen,\ along\ with\ a\ newline\ \r\n\ character.\r\n\ @param\ text\ The\ text\ to\ print.\r\n\ @param\ useLog\ If\ useLog\ is\ true,\ the\ string\ is\ appended\ to\ the\ log.\r\n
+comment4.params=
+comment4.target=void\ clear()
+comment4.text=\r\n\ Clears\ the\ calculator\ screen\ (text\ view).\r\n
+comment5.params=
+comment5.target=java.lang.String\ getLog()
+comment5.text=\r\n\ Returns\ and\ flushes\ the\ log.\r\n\ @return\ Returns\ the\ log.\r\n
+numComments=6

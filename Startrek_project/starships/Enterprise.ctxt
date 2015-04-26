@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=newSeed
+comment0.target=Enterprise(int)
+comment0.text=\r\n\ Constructor\ for\ the\ enterprise\ class.\r\n\ \r\n\ @param\ newSeed\ the\ seed\ for\ the\ game.\ Used\ by\ the\ shipInfo\ \r\n\ method.\r\n
+comment1.params=
+comment1.target=int\ getTorpedos()
+comment1.text=\r\n\ Accessor\ for\ torpedos.\r\n\ @return\ returns\ torpedos.\r\n
+comment2.params=
+comment2.target=void\ resetTorpedos()
+comment2.text=\r\n\ Resets\ torpedos\ to\ the\ intial\ value.\r\n
+comment3.params=
+comment3.target=void\ fireTorpedo()
+comment3.text=\r\n\ Decrements\ the\ torpedo\ count.\r\n
+comment4.params=
+comment4.target=void\ initSubsystems()
+comment4.text=\r\n\ Adds\ all\ the\ necessary\ systems\ for\ a\ enterprise\ ship.\r\n
+numComments=5

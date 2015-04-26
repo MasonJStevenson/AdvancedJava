@@ -1,0 +1,25 @@
+Your orders are as follows:
+   Destroy the 15 Klingon warships which have invaded
+the galaxy before they can attack Federation Headquarters
+on stardate 2134. This gives you 34 days. There are
+ 2 starbases in the galaxy for resupplying your ship.
+Your mission begins with your starship located
+in the galactic quadrant Deneb.
+Deflector Control Room report:
+  'Shields now at 1 units per your command.'
+Invalid integer.
+<Shields Unchanged>
+<Shields Unchanged>
+Deflector Control Room report:
+  'Shields now at 500 units per your command.'
+Now entering Deneb quadrant...
+Combat Area  Condition Red
+Deflector Control Room report:
+  'Shields now at 200 units per your command.'
+111 unit hit on Enterprise from sector 8, 7
+    <Shields down to 89 units>
+Damage Control reports
+   'Long Range Sensors' damaged by hit
+Deflector Control Room report:
+  'Shields now at 200 units per your command.'
+

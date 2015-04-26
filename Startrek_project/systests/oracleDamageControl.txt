@@ -1,0 +1,242 @@
+
+ *************************************
+ *                                   *
+ *                                   *
+ *      * * Super Star Trek * *      *
+ *                                   *
+ *                                   *
+ *************************************
+Do you need instructions (y/n):
+                         ------*------
+         -------------   `---  ------'
+         `-------- --'      / /
+                  \\-------  --
+                  '-----------'
+
+       The USS Enterprise --- NCC - 1701-0
+
+
+Your orders are as follows:
+   Destroy the 15 Klingon warships which have invaded
+the galaxy before they can attack Federation Headquarters
+on stardate 2134. This gives you 34 days. There are
+ 2 starbases in the galaxy for resupplying your ship.
+
+Your mission begins with your starship located
+in the galactic quadrant Deneb.
+  -1--2--3--4--5--6--7--8-
+1                             Stardate            2100
+2        *                    Condition           GREEN
+3  *                          Quadrant            2, 5
+4           *                 Sector              6, 3
+5                 *           Photon Torpedoes    10
+6       <0>                   Total Energy        3000
+7                 *           Shields             0
+8                 *           Klingons Remaining  15
+  ------------------------
+
+Command? 
+Energy available = 3000
+Input number of units to Shields: 
+Deflector Control Room report:
+  'Shields now at 300 units per your command.'
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Now entering Deneb quadrant...
+ Combat Area  Condition Red
+  -1--2--3--4--5--6--7--8-
+1              *              Stardate            2102
+2              *              Condition           *RED*
+3  *                          Quadrant            2, 6
+4  * +K+                      Sector              6, 3
+5                             Photon Torpedoes    10
+6       <0>                   Total Energy        2964
+7                             Shields             300
+8        *                    Klingons Remaining  15
+  ------------------------
+
+Command? 
+Phasers locked on target;
+
+Energy available = 2664 units
+
+Number of units to fire: 
+110 unit hit on Klingon at sector 4, 2
+79 unit hit on Enterprise from sector 4, 2    <Shields down to 221 units>
+Damage Control reports
+   'Phaser Control' damaged by hit
+Command? 
+Device            State of Repair
+Warp Engines             0.0
+Short Range Sensors      0.0
+Long Range Sensors       0.0
+Phaser Control          -0.4
+Photon Tubes             0.0
+Damage Control           0.0
+Shield Control           0.0
+Library-Computer         0.0
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+50 unit hit on Enterprise from sector 6, 4    <Shields down to 171 units>
+Damage Control report:
+
+    Phaser Control repair completed
+
+Warp Engines shut down at sector 6, 4 due to bad navigation.
+
+  -1--2--3--4--5--6--7--8-
+1              *              Stardate            2102
+2              *              Condition           *RED*
+3  *                          Quadrant            2, 6
+4  *                          Sector              6, 3
+5                             Photon Torpedoes    10
+6       <0>+K+                Total Energy        2522
+7                             Shields             171
+8        *                    Klingons Remaining  15
+  ------------------------
+
+Command? 
+Phasers locked on target;
+
+Energy available = 2351 units
+
+Number of units to fire: 
+87 unit hit on Klingon at sector 6, 4
+*** Klingon Destroyed ***
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Now entering Sirius quadrant...
+ Combat Area  Condition Red
+Shields Dangerously Low
+  -1--2--3--4--5--6--7--8-
+1                             Stardate            2104
+2                             Condition           *RED*
+3                 *           Quadrant            1, 6
+4                             Sector              6, 3
+5  *           *              Photon Torpedoes    10
+6       <0>                   Total Energy        2286
+7                      +K+    Shields             171
+8                             Klingons Remaining  14
+  ------------------------
+
+Command? 
+Energy available = 2286
+Input number of units to Shields: 
+Deflector Control Room report:
+  'Shields now at 400 units per your command.'
+Command? 
+Phasers locked on target;
+
+Energy available = 1886 units
+
+Number of units to fire: 
+102 unit hit on Klingon at sector 7, 8
+57 unit hit on Enterprise from sector 7, 8    <Shields down to 343 units>
+Command? 
+Phasers locked on target;
+
+Energy available = 1586 units
+
+Number of units to fire: 
+32 unit hit on Klingon at sector 7, 8
+2 unit hit on Enterprise from sector 7, 8    <Shields down to 341 units>
+Command? 
+Phasers locked on target;
+
+Energy available = 1486 units
+
+Number of units to fire: 
+2 unit hit on Klingon at sector 7, 8
+*** Klingon Destroyed ***
+
+Command? 
+Long Range Scan for Quadrant 1, 6
+--------------------
+: *** : *** : *** :
+--------------------
+:   3 :   3 :   1 :
+--------------------
+:   6 :   5 :   7 :
+--------------------
+Command? 
+  -1--2--3--4--5--6--7--8-
+1                             Stardate            2104
+2                             Condition           GREEN
+3                 *           Quadrant            1, 6
+4                             Sector              6, 3
+5  *           *              Photon Torpedoes    10
+6       <0>                   Total Energy        1817
+7                             Shields             341
+8                             Klingons Remaining  13
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Now entering Sirius quadrant...
+ Combat Area  Condition Red
+  -1--2--3--4--5--6--7--8-
+1                             Stardate            2106
+2                             Condition           *RED*
+3                 *           Quadrant            1, 8
+4                             Sector              6, 3
+5                             Photon Torpedoes    10
+6       <0>                   Total Energy        1765
+7                      +K+    Shields             341
+8                             Klingons Remaining  13
+  ------------------------
+
+Command? 
+Phasers locked on target;
+
+Energy available = 1424 units
+
+Number of units to fire: 
+45 unit hit on Klingon at sector 7, 8
+92 unit hit on Enterprise from sector 7, 8    <Shields down to 249 units>
+Damage Control reports
+   'Warp Engines' damaged by hit
+Command? 
+Device            State of Repair
+Warp Engines            -0.2
+Short Range Sensors      0.0
+Long Range Sensors       0.0
+Phaser Control           0.0
+Photon Tubes             0.0
+Damage Control           0.0
+Shield Control           0.0
+Library-Computer         0.0
+
+Command? 
+Phasers locked on target;
+
+Energy available = 1324 units
+
+Number of units to fire: 
+45 unit hit on Klingon at sector 7, 8
+2 unit hit on Enterprise from sector 7, 8    <Shields down to 247 units>
+Command? 
+Phasers locked on target;
+
+Energy available = 1224 units
+
+Number of units to fire: 
+7 unit hit on Klingon at sector 7, 8
+*** Klingon Destroyed ***
+
+Command? 
+There were 12 Klingon Battlecruisers left at the end of your mission.
+The Federation is in need of a new starship commander for a similar mission.
+If there is a volunteer, let him step forward and enter 'aye': 
+
+
+

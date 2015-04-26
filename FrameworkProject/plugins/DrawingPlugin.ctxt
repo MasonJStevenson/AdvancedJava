@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=newController
+comment0.target=DrawingPlugin(model.CalcController)
+comment0.text=\r\n\ Constructor\ for\ DrawingPlugin.\r\n\ \r\n\ @param\ newController\ A\ controller\ for\ this\ plugin's\ parent\ gui.\r\n
+comment1.params=
+comment1.target=views.Numpad\ getNumpad()
+comment1.text=\r\n\ {@inheritDoc}\r\n
+comment2.params=
+comment2.target=views.ControlPanel\ getControlPanel()
+comment2.text=\r\n\ {@inheritDoc}\r\n
+comment3.params=
+comment3.target=model.Calculator\ getCalculator()
+comment3.text=\r\n\ {@inheritDoc}\r\n
+comment4.params=
+comment4.target=void\ unload()
+comment4.text=\r\n\ {@inheritDoc}\r\n
+numComments=5

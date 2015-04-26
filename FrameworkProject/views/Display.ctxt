@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Display()
+comment0.text=\r\n\ Constructor\ for\ display.\r\n
+comment1.params=
+comment1.target=CalcScreen\ getScreen()
+comment1.text=\r\n\ Returns\ the\ screen.\ (text\ view)\r\n\ @return\ Returns\ the\ screen.\r\n
+comment2.params=
+comment2.target=javax.swing.JPanel\ getCanvas()
+comment2.text=\r\n\ Returns\ the\ canvas.\ (draw\ view)\r\n\ @return\ Returns\ the\ canvas.\r\n
+comment3.params=view
+comment3.target=void\ switchView(java.lang.String)
+comment3.text=\r\n\ Switches\ between\ text\ and\ draw\ views.\r\n\ @param\ view\ The\ desired\ view.\r\n
+numComments=4

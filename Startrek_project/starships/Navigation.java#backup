@@ -1,0 +1,365 @@
+package starships;
+import util.*;
+import universe.*;
+
+/**
+ * Write a description of class Navigation here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class Navigation extends Subsystem
+{
+    private LoggingScanner logscanner;
+    double damage;
+    SpaceMath math;
+    
+    public Navigation(Starship newShip, SpaceMath newMath)
+    {
+        super("Warp Engines", newShip);
+        math = newMath;
+    }
+    
+    public void launch()
+    {
+        System.out.println("NAVIGATION ACTION");
+    }
+    
+     /* file02 Javon Negahban and Lilly Paul */
+
+    void course_control()
+    {
+        int c2, c3, q4, q5, numSectors;
+        String sTemp;
+        double course;
+        double warp; // Warp Factor
+        String warpLimit = "8";
+
+        System.out.println("Course (0-9): ");
+
+        sTemp = logscanner.nextLine();
+
+        //get course ---------------------------------------------------------------------
+        try
+        {
+            course = Float.parseFloat(sTemp);
+        }
+        
+        catch (NumberFormatException ex)
+        {
+            course = -1;
+        }
+
+        if(course == 9.0)
+        {
+            course = 1.0;
+        }
+        
+        else if(course < 0 || course > 9.0)
+        {
+            System.out.println("Lt. Sulu reports:  Incorrect course data, sir!");
+            return;
+        }
+        //-----------------------------------------------------------------------------
+        
+        // get warpFactor-------------------------------------------------------------- 
+        // if damaged
+        if(isDamaged())
+        {
+            warpLimit = "0.2";
+        }
+
+        System.out.println("Warp Factor (0-" + warpLimit + "): ");
+
+        sTemp = logscanner.nextLine();
+
+        try 
+        {
+            warp = Float.parseFloat(sTemp);
+        }
+        
+        catch (NumberFormatException ex)
+        {
+            System.out.println("Lt. Sulu reports:  Incorrect warp factor, sir!");
+            return;
+        }
+        
+        System.out.println();
+        //-----------------------------------------------------------------------------
+
+        //if damaged and warp greater than warp limit
+        if(isDamaged() && warp > 0.21)
+        {
+            System.out.println("Warp Engines are damaged. Maximum speed = Warp 0.2.");
+            //do nothing
+            return;
+        }
+
+        // if invalid warp
+        if (warp <= 0.0)
+        {
+            //do nothing
+            return;
+        }
+        
+        // invalid warp
+        else if(warp > 8.1)
+        {
+            System.out.println("Chief Engineer Scott reports:");
+            System.out.println("  The engines won't take warp " + warp + "!");
+            //do nothing
+            return;
+        }
+
+        numSectors = SpaceMath.cint(warp * 8.0);
+
+        if (ship.getEnergy() - numSectors < 0)
+        {
+            System.out.println("Engineering reports:\n");
+            System.out.println("  Insufficient energy available for maneuvering");
+            System.out.printf(" at warp %4.1f!\n", warp);
+            
+            //if shields > numSectors && shields are not damaged
+            if (ship.getShields() >= numSectors)/// && d[7] >= 0.0)
+            {
+                System.out.println("Deflector Control Room acknowledges:");
+                System.out.println("  " + ship.getShields() + "units of energy presently deployed to shields.");
+            }
+
+            return;
+        }
+
+        ///klingons_move();
+        
+        // check to see if klingons destroyed us
+        ///if (s <= 0) return;
+
+        ship.repair_damage(warp);
+
+        makeMove(course, math.cint(warp * 8.0));
+    }
+    
+    private void makeMove(double course, int warp)
+    {
+        Quadrant curQuad = ship.getQuadrant();
+        int shipRow;
+        int shipCol;
+        int roundedCourse = math.cint(course);
+        
+        /* Used for location and movement */
+        int[][] c = new int[][]{
+            { 0, 0, -1, -1, -1,  0,  1, 1, 1, 0,},
+            { 1, 1,  1,  0, -1, -1, -1, 0, 1, 1 }};
+        
+        // Remove from current location
+        shipRow = math.cint(ship.getSectorRow());
+        shipCol = math.cint(ship.getSectorCol());
+        
+        curQuad.getSectors()[shipRow][shipCol] = new EmptySpace();
+        /*
+        // advance to next location
+        c2 = cint(c1);
+        c3 = c2 + 1;
+
+        x1 = c[0][c2] + (c[0][c3] - c[0][c2]) * (c1 - c2);
+        x2 = c[1][c2] + (c[1][c3] - c[1][c2]) * (c1 - c2);
+
+        x = s1;
+        y = s2;
+        q4 = q1;
+        q5 = q2;
+
+        // move 'n' cells
+        for (int i = 1; i <= n; i++)
+        {
+            s1 = s1 + x1;
+            s2 = s2 + x2;
+
+            z1 = cint(s1);
+            z2 = cint(s2);
+
+            if (z1 < 1 || z1 >= 9 || z2 < 1 || z2 >= 9)
+            {
+            // System.out.println("new sector location out of bounds " + x + " " + y + ", "
+            // + z1 + " "+ z2);
+                exceed_quadrant_limits();
+                complete_maneuver();
+                return;
+            }
+
+            string_compare();
+
+            if (z3 != 1) // Sector not empty 
+            {
+                s1 = s1 - x1;
+                s2 = s2 - x2;
+                System.out.println("Warp Engines shut down at sector " + z1 + ", " + z2 + " due to bad navigation.\n");
+                i = n + 1;
+            }
+        }
+
+        complete_maneuver();*/
+    }
+
+    /* file06 Sonia Mannan Nathan Lemay */
+
+    private void complete_maneuver()
+    {
+        /*
+        double t8;
+
+        sA = "<0>"; 
+        z1 = cint(s1);
+        z2 = cint(s2);
+        insert_in_quadrant();
+
+        maneuver_energy();
+
+        t8 = 1.0;
+
+        if (warp < 1.0)
+        {
+            t8 = warp;
+        }
+
+        t = t + t8;
+        check_stardates_remain();
+        if (continue_playing)
+            short_range_scan();
+            */
+    }
+
+    /*file 07 Neal N and Evan P. */
+    private void exceed_quadrant_limits()
+    {
+        /*
+        int x5 = 0;   // Outside galaxy flag 
+        t = t + 1;    // increment stardate
+        x = (8 * (q1 - 1)) + x + (n * x1);
+        y = (8 * (q2 - 1)) + y + (n * x2);
+
+        q1 = cint(x / 8.0);
+        q2 = cint(y / 8.0);
+
+        s1 = x - ((q1 - 1) * 8);
+        s2 = y - ((q2 - 1) * 8);
+//         System.out.println("checking quadrant limits " + x + " " + y + ", "
+//         + q1 + " "+ q2 + ", " + s1 + " "+ s2 + " ");
+        if (cint(s1) == 0)
+        {
+            q1 = q1 - 1;
+            s1 = s1 + 8.0;
+        }
+
+        if (cint(s2) == 0)
+        {
+            q2 = q2 - 1;
+            s2 = s2 + 8.0;
+        }
+// Defect repair by jd: Add the following two decisisons
+//    to detect sector out of bounds 
+        if (cint(s1) > 8)
+        {
+            q1 = q1 + 1;
+            s1 = s1 - 8.0;
+        }
+
+        if (cint(s2) > 8)
+        {
+            q2 = q2 + 1;
+            s2 = s2 - 8.0;
+        }
+//         System.out.println("adjusted coordinates " + x + " " + y + ", "
+//         + q1 + " "+ q2 + ", " + s1 + " "+ s2 + " ");
+
+        // check if outside galaxy 
+
+        if (q1 < 1)
+        {
+            x5 = 1;
+            q1 = 1;
+            s1 = 1.0;
+        }
+
+        if (q1 > 8)
+        {
+            x5 = 1;
+            q1 = 8;
+            s1 = 8.0;
+        }
+
+        if (q2 < 1)
+        {
+            x5 = 1;
+            q2 = 1;
+            s2 = 1.0;
+        }
+
+        if (q2 > 8)
+        {
+            x5 = 1;
+            q2 = 8;
+            s2 = 8.0;
+        }
+
+        if (x5 == 1)
+        {
+
+            System.out.printf("LT. Uhura reports:\n");
+            System.out.printf("  Message from Starfleet Command:\n");
+            System.out.printf("  Permission to attempt crossing of galactic perimeter\n");
+            System.out.printf("  is hereby *denied*. Shut down your engines.\n");
+            System.out.printf("Chief Engineer Scott reports:\n");
+            System.out.printf("  Warp Engines shut down at sector %d, ", cint(s1));
+            System.out.printf("%d of quadrant %d, %d.\n", cint(s2), q1, q2);
+        }
+        
+        else
+        {
+            new_quadrant();
+        }
+
+        maneuver_energy();
+
+      //  t = t + 1;
+     */
+    
+     /* Defect detected by JD:
+     *    If you nav on your first turn and move to a new quadrant,
+     *    the stardate hasn't advanced yet and the message says
+     *    "your mission begins" instead of "Now entering..."
+     *    That's because stardate is advanced in complete_maneuver(),
+     *    but in this case, new_quadrant is called before it.
+     * FIX: move the above statement to start of this method
+     * so stardate gets increment BEFORE we call new_quadrant().
+     */
+        ///check_stardates_remain();
+    }
+
+    /* file08 Yash M. and Chris H. */
+    private void maneuver_energy()
+    {
+        /*
+        e = e - n - 10;
+
+        if (e >= 0)
+        {
+            return;
+        }
+        System.out.println("Shield Control supplies energy to complete maneuver.\n");
+
+        s = s + e;
+        e = 0;
+
+        if (s <= 0)
+        {
+            s = 0;
+        }
+        */
+    }
+    
+    public boolean isDamaged()
+    {
+        return damage < 0.0;
+    }
+}

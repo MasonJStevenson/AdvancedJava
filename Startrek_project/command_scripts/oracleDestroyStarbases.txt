@@ -1,0 +1,44 @@
+Your orders are as follows:
+   Destroy the 15 Klingon warships which have invaded
+the galaxy before they can attack Federation Headquarters
+on stardate 2134. This gives you 34 days. There are
+ 2 starbases in the galaxy for resupplying your ship.
+Your mission begins with your starship located
+in the galactic quadrant Deneb.
+Deflector Control Room report:
+  'Shields now at 1300 units per your command.'
+Now entering Capella quadrant...
+LT. Uhura reports:
+  Message from Starfleet Command:
+  Permission to attempt crossing of galactic perimeter
+  is hereby *denied*. Shut down your engines.
+Chief Engineer Scott reports:
+  Warp Engines shut down at sector 6, 8 of quadrant 3, 8.
+Now entering Capella quadrant...
+Combat Area  Condition Red
+Torpedo Track:
+    7, 8
+    8, 7
+*** Starbase Destroyed ***
+Starfleet Command reviewing your record to consider
+court martial!
+70 unit hit on Enterprise from sector 5, 3
+    <Shields down to 1230 units>
+Damage Control reports
+   'Shield Control' damaged by hit
+16 unit hit on Enterprise from sector 1, 5
+    <Shields down to 1214 units>
+Now entering Aldebaran quadrant...
+Damage Control report:
+    Shield Control repair completed
+Now entering Canopus quadrant...
+Torpedo Track:
+    6, 7
+    6, 6
+*** Starbase Destroyed ***
+That does it, Captain!!  
+You are hereby relieved of command
+and sentenced to 99 stardates of hardlabor on Cygnus 12!!
+There were 15 Klingon Battlecruisers left at the
+ end of your mission.
+

@@ -1,0 +1,874 @@
+
+ *************************************
+ *                                   *
+ *                                   *
+ *      * * Super Star Trek * *      *
+ *                                   *
+ *                                   *
+ *************************************
+Do you need instructions (y/n):
+                         ------*------
+         -------------   `---  ------'
+         `-------- --'      / /
+                  \\-------  --
+                  '-----------'
+
+       The USS Enterprise --- NCC - 1701-2
+
+
+Your orders are as follows:
+   Destroy the 14 Klingon warships which have invaded
+the galaxy before they can attack Federation Headquarters
+on stardate 2928. This gives you 28 days. There are
+ 5 starbases in the galaxy for resupplying your ship.
+
+Your mission begins with your starship located
+in the galactic quadrant Pollux.
+  -1--2--3--4--5--6--7--8-
+1        *        *           Stardate            2900
+2                             Condition           GREEN
+3        *                    Quadrant            8, 1
+4                   <0>       Sector              4, 7
+5                             Photon Torpedoes    10
+6                             Total Energy        3000
+7                    *        Shields             0
+8                       *     Klingons Remaining  14
+  ------------------------
+
+Command? 
+Long Range Scan for Quadrant 8, 1
+--------------------
+: *** :   3 :   8 :
+--------------------
+: *** :   5 :   1 :
+--------------------
+: *** : *** : *** :
+--------------------
+Command? 
+  -1--2--3--4--5--6--7--8-
+1        *        *           Stardate            2900
+2                             Condition           GREEN
+3        *                    Quadrant            8, 1
+4                   <0>       Sector              4, 7
+5                             Photon Torpedoes    10
+6                             Total Energy        3000
+7                    *        Shields             0
+8                       *     Klingons Remaining  14
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+LT. Uhura reports:
+  Message from Starfleet Command:
+  Permission to attempt crossing of galactic perimeter
+  is hereby *denied*. Shut down your engines.
+Chief Engineer Scott reports:
+  Warp Engines shut down at sector 4, 1 of quadrant 8, 1.
+  -1--2--3--4--5--6--7--8-
+1        *        *           Stardate            2902
+2                             Condition           GREEN
+3        *                    Quadrant            8, 1
+4 <0>                         Sector              4, 1
+5                             Photon Torpedoes    10
+6                             Total Energy        2964
+7                    *        Shields             0
+8                       *     Klingons Remaining  14
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Damage Control report:
+
+    Shield Control state of repair improved
+
+Now entering Pollux quadrant...
+   -1--2--3--4--5--6--7--8-
+1                             Stardate            2904
+2                             Condition           GREEN
+3                             Quadrant            8, 2
+4 <0>                         Sector              4, 1
+5                             Photon Torpedoes    10
+6                             Total Energy        2928
+7     *                       Shields             0
+8                             Klingons Remaining  14
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Now entering Spica quadrant...
+   -1--2--3--4--5--6--7--8-
+1              *        *     Stardate            2906
+2  *                          Condition           GREEN
+3                             Quadrant            8, 5
+4 <0>          *        *     Sector              4, 1
+5                             Photon Torpedoes    10
+6                             Total Energy        2860
+7                             Shields             0
+8                             Klingons Remaining  14
+  ------------------------
+
+Command? 
+Computer active and awating command: 
+Functions available from Library-Computer:
+   0 = Cumulative Galactic Record
+   1 = Status Report
+   2 = Photon Torpedo Data
+   3 = Starbase Nav Data
+   4 = Direction/Distance Calculator
+   5 = Galaxy 'Region Name' Map
+Command? 
+Computer active and awating command: 
+     Computer Record of Galaxy for Quadrant 8,5
+     1     2     3     4     5     6     7     8
+   ----- ----- ----- ----- ----- ----- ----- -----
+1   ***   ***   ***   ***   ***   ***   ***   ***
+   ----- ----- ----- ----- ----- ----- ----- -----
+2   ***   ***   ***   ***   ***   ***   ***   ***
+   ----- ----- ----- ----- ----- ----- ----- -----
+3   ***   ***   ***   ***   ***   ***   ***   ***
+   ----- ----- ----- ----- ----- ----- ----- -----
+4   ***   ***   ***   ***   ***   ***   ***   ***
+   ----- ----- ----- ----- ----- ----- ----- -----
+5   ***   ***   ***   ***   ***   ***   ***   ***
+   ----- ----- ----- ----- ----- ----- ----- -----
+6   ***   ***   ***   ***   ***   ***   ***   ***
+   ----- ----- ----- ----- ----- ----- ----- -----
+7     3     8   ***   ***   ***   ***   ***   ***
+   ----- ----- ----- ----- ----- ----- ----- -----
+8     5     1   ***   ***     5   ***   ***   ***
+   ----- ----- ----- ----- ----- ----- ----- -----
+Command? 
+Computer active and awating command: 
+   Status Report:
+Klingons Left: 14
+Mission must be completed in 22.0 stardates
+The Federation is maintaining 5 starbases in the galaxy
+Command? 
+Computer active and awating command: 
+Science Officer Spock reports:
+
+  'Sensors show no enemy ships in this quadrant.'
+
+Command? 
+Computer active and awating command: 
+Mr. Spock reports,
+
+  'Sensors show no starbases in this quadrant.'
+
+Command? 
+Computer active and awating command: 
+Direction/Distance Calculator
+
+You are at quadrant 8,5 sector 4,1
+
+Please enter initial X coordinate: 
+Please enter initial Y coordinate: 
+Please enter final X coordinate: 
+Please enter final Y coordinate: 
+  DIRECTION =  NaN
+  DISTANCE = 0.00
+Command? 
+Computer active and awating command: 
+Direction/Distance Calculator
+
+You are at quadrant 8,5 sector 4,1
+
+Please enter initial X coordinate: 
+Please enter initial Y coordinate: 
+Please enter final X coordinate: 
+Please enter final Y coordinate: 
+  DIRECTION = 1.00
+  DISTANCE = 1.00
+Command? 
+Computer active and awating command: 
+                   The Galaxy
+    1     2     3     4     5     6     7     8
+  ----- ----- ----- ----- ----- ----- ----- -----
+1         Antares                  Sirius
+  ----- ----- ----- ----- ----- ----- ----- -----
+2          Rigel                    Deneb
+  ----- ----- ----- ----- ----- ----- ----- -----
+3         Procyon                  Capella
+  ----- ----- ----- ----- ----- ----- ----- -----
+4          Vega                Betelgeuse
+  ----- ----- ----- ----- ----- ----- ----- -----
+5         Canopus                 Aldebaran
+  ----- ----- ----- ----- ----- ----- ----- -----
+6         Altair                 Regulus
+  ----- ----- ----- ----- ----- ----- ----- -----
+7       Sagittarius               Arcturus
+  ----- ----- ----- ----- ----- ----- ----- -----
+8         Pollux                  Spica
+  ----- ----- ----- ----- ----- ----- ----- -----
+Command? 
+Science Officer Spock reports:
+
+  'Sensors show no enemy ships in this quadrant'
+Command? 
+Course (0-9): 
+
+
+Torpedo Track:
+
+    3, 2
+    2, 3
+    1, 4
+Torpedo Missed
+
+Command? 
+Energy available = 2858
+Input number of units to Shields: 
+Deflector Control Room report:
+  'Shields now at 200 units per your command.'
+Command? 
+Energy available = 2858
+Input number of units to Shields: 
+Shield Control Reports:
+  'This is not the Federation Treasury.'
+<Shields Unchanged>
+Command? 
+Device            State of Repair
+Warp Engines             0.0
+Short Range Sensors      0.0
+Long Range Sensors       0.0
+Phaser Control           0.0
+Photon Tubes             0.0
+Damage Control           0.0
+Shield Control           2.1
+Library-Computer         0.0
+
+Command? 
+There were 14 Klingon Battlecruisers left at the end of your mission.
+The Federation is in need of a new starship commander for a similar mission.
+If there is a volunteer, let him step forward and enter 'aye': 
+
+
+Your orders are as follows:
+   Destroy the 31 Klingon warships which have invaded
+the galaxy before they can attack Federation Headquarters
+on stardate 2937. This gives you 31 days. There are
+ 6 starbases in the galaxy for resupplying your ship.
+
+Your mission begins with your starship located
+in the galactic quadrant Aldebaran.
+Combat Area  Condition Red
+Shields Dangerously Low
+  -1--2--3--4--5--6--7--8-
+1                             Stardate            2906
+2              *              Condition           *RED*
+3                    * <0>    Quadrant            5, 5
+4                             Sector              3, 8
+5                             Photon Torpedoes    10
+6                             Total Energy        3000
+7                      +K+    Shields             0
+8                             Klingons Remaining  31
+  ------------------------
+
+Command? 
+Energy available = 3000
+Input number of units to Shields: 
+Deflector Control Room report:
+  'Shields now at 1000 units per your command.'
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+98 unit hit on Enterprise from sector 1, 2    <Shields down to 902 units>
+Damage Control reports
+   'Phaser Control' damaged by hit
+Now entering Regulus quadrant...
+   -1--2--3--4--5--6--7--8-
+1                             Stardate            2908
+2  *                          Condition           GREEN
+3                      <0>    Quadrant            6, 5
+4                             Sector              3, 8
+5                             Photon Torpedoes    10
+6                             Total Energy        2866
+7                             Shields             902
+8                             Klingons Remaining  31
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Damage Control report:
+
+    Phaser Control repair completed
+
+Damage Control report:
+
+    Photon Tubes damaged
+
+Now entering Arcturus quadrant...
+ Combat Area  Condition Red
+  -1--2--3--4--5--6--7--8-
+1                             Stardate            2910
+2                             Condition           *RED*
+3                 *    <0>    Quadrant            7, 5
+4                             Sector              3, 8
+5                       *     Photon Torpedoes    10
+6        *                    Total Energy        2830
+7        *       +K+          Shields             902
+8                             Klingons Remaining  31
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+85 unit hit on Enterprise from sector 5, 1    <Shields down to 817 units>
+Damage Control reports
+   'Damage Control' damaged by hit
+Now entering Arcturus quadrant...
+   -1--2--3--4--5--6--7--8-
+1                             Stardate            2912
+2                    *        Condition           GREEN
+3                      <0>    Quadrant            7, 6
+4                             Sector              3, 8
+5                             Photon Torpedoes    10
+6                             Total Energy        2709
+7                             Shields             817
+8                             Klingons Remaining  31
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Damage Control report:
+
+    Damage Control repair completed
+
+Damage Control report:
+
+    Shield Control damaged
+
+Now entering Arcturus quadrant...
+ Combat Area  Condition Red
+  -1--2--3--4--5--6--7--8-
+1                             Stardate            2914
+2                             Condition           *RED*
+3  *                   <0>    Quadrant            7, 5
+4                       *     Sector              3, 8
+5              *              Photon Torpedoes    10
+6                       *     Total Energy        2673
+7    +K+                      Shields             817
+8                             Klingons Remaining  31
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+583 unit hit on Enterprise from sector 2, 7    <Shields down to 234 units>
+Damage Control reports
+   'Phaser Control' damaged by hit
+Warp Engines shut down at sector 3, 1 due to bad navigation.
+
+  -1--2--3--4--5--6--7--8-
+1                             Stardate            2915
+2                   +K+       Condition           *RED*
+3  * <0>                      Quadrant            7, 5
+4                       *     Sector              3, 2
+5              *              Photon Torpedoes    10
+6                       *     Total Energy        2072
+7                             Shields             234
+8                             Klingons Remaining  31
+  ------------------------
+
+Command? 
+Phasers Inoperative
+
+Command? 
+Enter one of the following:
+  nav - To Set Course
+  srs - Short Range Sensors
+  lrs - Long Range Sensors
+  pha - Phasers
+  tor - Photon Torpedoes
+  shi - Shield Control
+  dam - Damage Control
+  com - Library Computer
+  q - Resign Command
+
+Command? 
+Enter one of the following:
+  nav - To Set Course
+  srs - Short Range Sensors
+  lrs - Long Range Sensors
+  pha - Phasers
+  tor - Photon Torpedoes
+  shi - Shield Control
+  dam - Damage Control
+  com - Library Computer
+  q - Resign Command
+
+Command? 
+Shield Control inoperable
+Command? 
+Enter one of the following:
+  nav - To Set Course
+  srs - Short Range Sensors
+  lrs - Long Range Sensors
+  pha - Phasers
+  tor - Photon Torpedoes
+  shi - Shield Control
+  dam - Damage Control
+  com - Library Computer
+  q - Resign Command
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+35 unit hit on Enterprise from sector 1, 7    <Shields down to 199 units>
+Damage Control report:
+
+    Warp Engines damaged
+
+  -1--2--3--4--5--6--7--8-
+1                   +K+       Stardate            2915
+2    <0>                      Condition           *RED*
+3  *                          Quadrant            7, 5
+4                       *     Sector              2, 2
+5              *              Photon Torpedoes    10
+6                       *     Total Energy        2026
+7                             Shields             199
+8                             Klingons Remaining  31
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-0.2): 
+
+6 unit hit on Enterprise from sector 7, 5    <Shields down to 193 units>
+  -1--2--3--4--5--6--7--8-
+1                             Stardate            2915
+2 <0>                         Condition           *RED*
+3  *                          Quadrant            7, 5
+4                       *     Sector              2, 1
+5              *              Photon Torpedoes    10
+6                       *     Total Energy        2009
+7             +K+             Shields             193
+8                             Klingons Remaining  31
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-0.2): 
+
+Warp Engines are damaged. Maximum speed = Warp 0.2.
+Command? 
+Computer active and awating command: 
+Functions available from Library-Computer:
+   0 = Cumulative Galactic Record
+   1 = Status Report
+   2 = Photon Torpedo Data
+   3 = Starbase Nav Data
+   4 = Direction/Distance Calculator
+   5 = Galaxy 'Region Name' Map
+Command? 
+Computer active and awating command: 
+From Enterprise to Klingon battlecruiser:
+
+  DIRECTION = 7.82
+  DISTANCE = 5.00
+Command? 
+Photon Tubes not operational
+
+Command? 
+Enter one of the following:
+  nav - To Set Course
+  srs - Short Range Sensors
+  lrs - Long Range Sensors
+  pha - Phasers
+  tor - Photon Torpedoes
+  shi - Shield Control
+  dam - Damage Control
+  com - Library Computer
+  q - Resign Command
+
+Command? 
+Course (0-9): 
+Warp Factor (0-0.2): 
+
+Warp Engines are damaged. Maximum speed = Warp 0.2.
+Command? 
+Course (0-9): 
+Warp Factor (0-0.2): 
+
+2 unit hit on Enterprise from sector 7, 3    <Shields down to 191 units>
+Damage Control report:
+
+    Library-Computer state of repair improved
+
+  -1--2--3--4--5--6--7--8-
+1                             Stardate            2915
+2       <0>                   Condition           *RED*
+3  *                          Quadrant            7, 5
+4                       *     Sector              2, 3
+5              *              Photon Torpedoes    10
+6                       *     Total Energy        1995
+7       +K+                   Shields             191
+8                             Klingons Remaining  31
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-0.2): 
+
+Warp Engines are damaged. Maximum speed = Warp 0.2.
+Command? 
+Course (0-9): 
+Warp Factor (0-0.2): 
+
+Warp Engines are damaged. Maximum speed = Warp 0.2.
+Command? 
+Course (0-9): 
+Warp Factor (0-0.2): 
+
+Warp Engines are damaged. Maximum speed = Warp 0.2.
+Command? 
+Shield Control inoperable
+Command? 
+Enter one of the following:
+  nav - To Set Course
+  srs - Short Range Sensors
+  lrs - Long Range Sensors
+  pha - Phasers
+  tor - Photon Torpedoes
+  shi - Shield Control
+  dam - Damage Control
+  com - Library Computer
+  q - Resign Command
+
+Command? 
+Phasers Inoperative
+
+Command? 
+Enter one of the following:
+  nav - To Set Course
+  srs - Short Range Sensors
+  lrs - Long Range Sensors
+  pha - Phasers
+  tor - Photon Torpedoes
+  shi - Shield Control
+  dam - Damage Control
+  com - Library Computer
+  q - Resign Command
+
+Command? 
+Phasers Inoperative
+
+Command? 
+Enter one of the following:
+  nav - To Set Course
+  srs - Short Range Sensors
+  lrs - Long Range Sensors
+  pha - Phasers
+  tor - Photon Torpedoes
+  shi - Shield Control
+  dam - Damage Control
+  com - Library Computer
+  q - Resign Command
+
+Command? 
+Course (0-9): 
+Warp Factor (0-0.2): 
+
+0 unit hit on Enterprise from sector 5, 3    <Shields down to 191 units>
+  -1--2--3--4--5--6--7--8-
+1                             Stardate            2915
+2                             Condition           *RED*
+3  *    <0>                   Quadrant            7, 5
+4                       *     Sector              3, 3
+5       +K+    *              Photon Torpedoes    10
+6                       *     Total Energy        1984
+7                             Shields             191
+8                             Klingons Remaining  31
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-0.2): 
+
+Warp Engines are damaged. Maximum speed = Warp 0.2.
+Command? 
+Course (0-9): 
+Warp Factor (0-0.2): 
+
+Warp Engines are damaged. Maximum speed = Warp 0.2.
+Command? 
+Course (0-9): 
+Warp Factor (0-0.2): 
+
+Warp Engines are damaged. Maximum speed = Warp 0.2.
+Command? 
+Course (0-9): 
+Warp Factor (0-0.2): 
+
+Warp Engines are damaged. Maximum speed = Warp 0.2.
+Command? 
+Course (0-9): 
+Warp Factor (0-0.2): 
+
+Warp Engines are damaged. Maximum speed = Warp 0.2.
+Command? 
+Course (0-9): 
+Warp Factor (0-0.2): 
+
+Warp Engines are damaged. Maximum speed = Warp 0.2.
+Command? 
+Course (0-9): 
+Warp Factor (0-0.2): 
+
+  -1--2--3--4--5--6--7--8-
+1                             Stardate            2915
+2                             Condition           *RED*
+3  *                          Quadrant            7, 5
+4          <0>          *     Sector              4, 4
+5       +K+    *              Photon Torpedoes    10
+6                       *     Total Energy        1973
+7                             Shields             191
+8                             Klingons Remaining  31
+  ------------------------
+
+Command? 
+There were 31 Klingon Battlecruisers left at the end of your mission.
+The Federation is in need of a new starship commander for a similar mission.
+If there is a volunteer, let him step forward and enter 'aye': 
+
+
+Your orders are as follows:
+   Destroy the 44 Klingon warships which have invaded
+the galaxy before they can attack Federation Headquarters
+on stardate 2960. This gives you 45 days. There are
+ 7 starbases in the galaxy for resupplying your ship.
+
+Now entering Spica quadrant...
+ Combat Area  Condition Red
+Shields Dangerously Low
+  -1--2--3--4--5--6--7--8-
+1                             Stardate            2915
+2                             Condition           *RED*
+3        *        *     *     Quadrant            8, 5
+4     *                <0>    Sector              4, 8
+5              *              Photon Torpedoes    10
+6                      +K+    Total Energy        3000
+7                             Shields             0
+8                             Klingons Remaining  44
+  ------------------------
+
+Command? 
+Energy available = 3000
+Input number of units to Shields: 
+Deflector Control Room report:
+  'Shields now at 1000 units per your command.'
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+127 unit hit on Enterprise from sector 4, 3    <Shields down to 873 units>
+Damage Control reports
+   'Phaser Control' damaged by hit
+Damage Control report:
+
+    Phaser Control repair completed
+
+LT. Uhura reports:
+  Message from Starfleet Command:
+  Permission to attempt crossing of galactic perimeter
+  is hereby *denied*. Shut down your engines.
+Chief Engineer Scott reports:
+  Warp Engines shut down at sector 8, 8 of quadrant 8, 5.
+  -1--2--3--4--5--6--7--8-
+1                             Stardate            2917
+2                             Condition           *RED*
+3        *        *     *     Quadrant            8, 5
+4     * +K+                   Sector              8, 8
+5              *              Photon Torpedoes    10
+6                             Total Energy        2837
+7                             Shields             873
+8                      <0>    Klingons Remaining  44
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+26 unit hit on Enterprise from sector 1, 7    <Shields down to 847 units>
+Damage Control reports
+   'Photon Tubes' damaged by hit
+Damage Control report:
+
+    Phaser Control state of repair improved
+
+Now entering Pollux quadrant...
+   -1--2--3--4--5--6--7--8-
+1                             Stardate            2919
+2              *  *           Condition           GREEN
+3                             Quadrant            8, 4
+4  *        *           *     Sector              8, 8
+5                             Photon Torpedoes    10
+6                             Total Energy        2775
+7                             Shields             847
+8                      <0>    Klingons Remaining  44
+  ------------------------
+
+Command? 
+  -1--2--3--4--5--6--7--8-
+1                             Stardate            2919
+2              *  *           Condition           GREEN
+3                             Quadrant            8, 4
+4  *        *           *     Sector              8, 8
+5                             Photon Torpedoes    10
+6                             Total Energy        2775
+7                             Shields             847
+8                      <0>    Klingons Remaining  44
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Damage Control report:
+
+    Photon Tubes repair completed
+
+LT. Uhura reports:
+  Message from Starfleet Command:
+  Permission to attempt crossing of galactic perimeter
+  is hereby *denied*. Shut down your engines.
+Chief Engineer Scott reports:
+  Warp Engines shut down at sector 8, 8 of quadrant 8, 4.
+  -1--2--3--4--5--6--7--8-
+1                             Stardate            2921
+2              *  *           Condition           GREEN
+3                             Quadrant            8, 4
+4  *        *           *     Sector              8, 8
+5                             Photon Torpedoes    10
+6                             Total Energy        2707
+7                             Shields             847
+8                      <0>    Klingons Remaining  44
+  ------------------------
+
+Command? 
+Long Range Scan for Quadrant 8, 4
+--------------------
+:   6 :   5 :   4 :
+--------------------
+:   8 :   5 : 105 :
+--------------------
+: *** : *** : *** :
+--------------------
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Now entering Arcturus quadrant...
+   -1--2--3--4--5--6--7--8-
+1                             Stardate            2923
+2                             Condition           GREEN
+3        *                    Quadrant            7, 5
+4  *        *                 Sector              8, 8
+5                             Photon Torpedoes    10
+6  *                          Total Energy        2671
+7                             Shields             847
+8                      <0>    Klingons Remaining  44
+  ------------------------
+
+Command? 
+Computer active and awating command: 
+Science Officer Spock reports:
+
+  'Sensors show no enemy ships in this quadrant.'
+
+Command? 
+Course (0-9): 
+
+
+Torpedo Track:
+
+    7, 8
+    6, 8
+    5, 8
+    4, 8
+    3, 8
+    2, 8
+    1, 8
+Torpedo Missed
+
+Command? 
+Enter one of the following:
+  nav - To Set Course
+  srs - Short Range Sensors
+  lrs - Long Range Sensors
+  pha - Phasers
+  tor - Photon Torpedoes
+  shi - Shield Control
+  dam - Damage Control
+  com - Library Computer
+  q - Resign Command
+
+Command? 
+Energy available = 2669
+Input number of units to Shields: 
+Deflector Control Room report:
+  'Shields now at 1200 units per your command.'
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Damage Control report:
+
+    Warp Engines damaged
+
+Now entering Regulus quadrant...
+   -1--2--3--4--5--6--7--8-
+1                             Stardate            2925
+2              *              Condition           GREEN
+3                             Quadrant            6, 6
+4                 *  *        Sector              8, 8
+5                       *     Photon Torpedoes    9
+6           *                 Total Energy        2633
+7     *                       Shields             1200
+8                 *    <0>    Klingons Remaining  44
+  ------------------------
+
+Command? 
+  -1--2--3--4--5--6--7--8-
+1                             Stardate            2925
+2              *              Condition           GREEN
+3                             Quadrant            6, 6
+4                 *  *        Sector              8, 8
+5                       *     Photon Torpedoes    9
+6           *                 Total Energy        2633
+7     *                       Shields             1200
+8                 *    <0>    Klingons Remaining  44
+  ------------------------
+
+Command? 
+Long Range Scan for Quadrant 6, 6
+--------------------
+:   5 :   7 :   3 :
+--------------------
+:   3 :   7 :   7 :
+--------------------
+:   4 :   3 : 105 :
+--------------------
+Command? 
+There were 44 Klingon Battlecruisers left at the end of your mission.
+The Federation is in need of a new starship commander for a similar mission.
+If there is a volunteer, let him step forward and enter 'aye': 
+
+
+
+
+

@@ -1,0 +1,171 @@
+
+ *************************************
+ *                                   *
+ *                                   *
+ *      * * Super Star Trek * *      *
+ *                                   *
+ *                                   *
+ *************************************
+Do you need instructions (y/n):
+                         ------*------
+         -------------   `---  ------'
+         `-------- --'      / /
+                  \\-------  --
+                  '-----------'
+
+       The USS Enterprise --- NCC - 1701-0
+
+
+Your orders are as follows:
+   Destroy the 15 Klingon warships which have invaded
+the galaxy before they can attack Federation Headquarters
+on stardate 2134. This gives you 34 days. There are
+ 2 starbases in the galaxy for resupplying your ship.
+
+Your mission begins with your starship located
+in the galactic quadrant Deneb.
+  -1--2--3--4--5--6--7--8-
+1                             Stardate            2100
+2        *                    Condition           GREEN
+3  *                          Quadrant            2, 5
+4           *                 Sector              6, 3
+5                 *           Photon Torpedoes    10
+6       <0>                   Total Energy        3000
+7                 *           Shields             0
+8                 *           Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Lt. Sulu reports:  Incorrect course data, sir!
+Command? 
+Course (0-9): 
+Lt. Sulu reports:  Incorrect course data, sir!
+Command? 
+Course (0-9): 
+Lt. Sulu reports:  Incorrect course data, sir!
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Chief Engineer Scott reports:
+  The engines won't take warp 10.0!
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+LT. Uhura reports:
+  Message from Starfleet Command:
+  Permission to attempt crossing of galactic perimeter
+  is hereby *denied*. Shut down your engines.
+Chief Engineer Scott reports:
+  Warp Engines shut down at sector 6, 8 of quadrant 2, 8.
+Now entering Deneb quadrant...
+   -1--2--3--4--5--6--7--8-
+1                       *     Stardate            2102
+2                             Condition           GREEN
+3     *                       Quadrant            2, 8
+4     *                       Sector              6, 8
+5  *     *  *                 Photon Torpedoes    10
+6                      <0>    Total Energy        2852
+7                             Shields             0
+8                             Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Damage Control report:
+
+    Library-Computer damaged
+
+  -1--2--3--4--5--6--7--8-
+1                       *     Stardate            2102
+2                             Condition           GREEN
+3     *                       Quadrant            2, 8
+4     *                       Sector              6, 7
+5  *     *  *                 Photon Torpedoes    10
+6                   <0>       Total Energy        2841
+7                             Shields             0
+8                             Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Now entering Deneb quadrant...
+   -1--2--3--4--5--6--7--8-
+1              *              Stardate            2104
+2                 *           Condition           GREEN
+3                 *           Quadrant            2, 7
+4           *                 Sector              6, 7
+5                             Photon Torpedoes    10
+6        *          <0>       Total Energy        2805
+7              *        *     Shields             0
+8                             Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Damage Control report:
+
+    Long Range Sensors state of repair improved
+
+Warp Engines shut down at sector 6, 3 due to bad navigation.
+
+  -1--2--3--4--5--6--7--8-
+1              *              Stardate            2104
+2                 *           Condition           GREEN
+3                 *           Quadrant            2, 7
+4           *                 Sector              6, 4
+5                             Photon Torpedoes    10
+6        * <0>                Total Energy        2791
+7              *        *     Shields             0
+8                             Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+  -1--2--3--4--5--6--7--8-
+1              *              Stardate            2104
+2                 *           Condition           GREEN
+3                 *           Quadrant            2, 7
+4           *                 Sector              6, 6
+5                             Photon Torpedoes    10
+6        *       <0>          Total Energy        2779
+7              *        *     Shields             0
+8                             Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Damage Control report:
+
+    Warp Engines state of repair improved
+
+  -1--2--3--4--5--6--7--8-
+1              *              Stardate            2104
+2                 *           Condition           GREEN
+3                 *           Quadrant            2, 7
+4           *                 Sector              6, 7
+5                             Photon Torpedoes    10
+6        *          <0>       Total Energy        2768
+7              *        *     Shields             0
+8                             Klingons Remaining  15
+  ------------------------
+
+Command? 
+There were 15 Klingon Battlecruisers left at the end of your mission.
+The Federation is in need of a new starship commander for a similar mission.
+If there is a volunteer, let him step forward and enter 'aye': 
+
+
+

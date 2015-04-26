@@ -1,0 +1,6 @@
+shi -1
+shi 4000
+shi bad input
+shi 400
+nav 1 1
+pha 50

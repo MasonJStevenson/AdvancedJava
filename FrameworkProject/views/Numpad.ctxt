@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=newController
+comment0.target=Numpad(model.CalcController)
+comment0.text=\r\n\ Constructor\ for\ the\ Numpad\ class.\r\n\ \r\n\ @param\ newController\ A\ controller\ for\ the\ parent\ gui.\r\n
+comment1.params=
+comment1.target=model.CalcController\ getController()
+comment1.text=\r\n\ Returns\ the\ controller.\r\n\ @return\ Returns\ the\ controller.\r\n
+numComments=2

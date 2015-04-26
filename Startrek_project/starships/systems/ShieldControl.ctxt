@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=newShip
+comment0.target=ShieldControl(starships.Starship)
+comment0.text=\r\n\ Constructor\ for\ this\ module.\r\n\ \r\n\ @param\ newShip\ a\ reference\ to\ the\ ship\ containing\ this\ module.\r\n
+comment1.params=commands
+comment1.target=java.lang.String\ launch(java.lang.String[])
+comment1.text=\r\n\ Launches\ the\ module.\r\n\ \r\n\ @param\ commands\ a\ list\ of\ commands\ for\ this\ module.\r\n\ @return\ Returns\ the\ log.\r\n
+comment2.params=
+comment2.target=boolean\ isDamaged()
+comment2.text=\r\n\ Checks\ this\ module\ for\ damage.\r\n\ @return\ returns\ true\ if\ this\ module\ has\ been\ damaged.\r\n
+numComments=3

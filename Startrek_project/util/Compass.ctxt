@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=dir
+comment0.target=java.lang.String\ getDirection(java.lang.String)
+comment0.text=\r\n\ Checks\ a\ direction\ input.\r\n\ @param\ dir\ a\ direction\ input.\r\n\ @return\ returns\ the\ converted\ input.\r\n
+comment1.params=dir
+comment1.target=java.lang.String\ getResult(java.lang.String)
+numComments=2

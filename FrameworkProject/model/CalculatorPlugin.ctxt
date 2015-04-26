@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=newController
+comment0.target=CalculatorPlugin(CalcController)
+comment0.text=\r\n\ Constructor\ for\ CalculatorPlugin.\r\n\ @param\ newController\ A\ reference\ to\ the\ controller\ used\ by\ this\ plugin.\r\n
+comment1.params=newController
+comment1.target=void\ setController(CalcController)
+comment1.text=\r\n\ Sets\ the\ controller\ for\ this\ plugin.\r\n\ @param\ newController\ The\ controller\ to\ set.\r\n
+comment2.params=
+comment2.target=CalcController\ getController()
+comment2.text=\r\n\ Returns\ the\ controller\ for\ this\ plugin.\r\n\ @return\ Returns\ the\ controller\ for\ this\ plugin.\r\n
+comment3.params=
+comment3.target=views.Numpad\ getNumpad()
+comment3.text=\r\n\ Alters\ the\ Calculator\ GUI's\ numpad.\r\n\ \r\n\ If\ default\ numpad\ is\ desired,\ return\ null.\r\n\ @return\ Returns\ a\ custom\ numpad,\ or\ null\ for\ default\ numpad.\r\n
+comment4.params=
+comment4.target=views.ControlPanel\ getControlPanel()
+comment4.text=\r\n\ Alters\ the\ Calculator\ GUI's\ control\ panel.\r\n\ \r\n\ If\ default\ control\ panel\ is\ desired,\ return\ null.\r\n\ @return\ Returns\ a\ custom\ control\ panel,\ or\ null\ for\ default\ control\ \r\n\ panel.\r\n
+comment5.params=
+comment5.target=Calculator\ getCalculator()
+comment5.text=\r\n\ Alters\ calculator\ behavior.\r\n\ \r\n\ If\ default\ calculator\ is\ desired,\ return\ null.\r\n\ @return\ Returns\ a\ custom\ calculator,\ or\ null\ for\ default\ calculator\r\n
+comment6.params=
+comment6.target=void\ unload()
+comment6.text=\r\n\ Reverts\ the\ GUI\ back\ to\ its\ original\ state.\r\n\ @param\ controller\r\n
+numComments=7

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=newShip
+comment0.target=LongRangeScanner(starships.Starship)
+comment0.text=\r\n\ Constructor\ for\ the\ Long\ Range\ Scanner.\r\n\ @param\ newShip\ the\ ship\ containing\ this\ system.\r\n
+comment1.params=command
+comment1.target=java.lang.String\ launch(java.lang.String[])
+comment1.text=\r\n\ Scans\ a\ (3\ Quadrant)X(3\ Quadrant)\ area\ of\ space\ located\ \r\n\ around\ the\ ship's\ current\ quadrant.\r\n\ \r\n\ @param\ command\ the\ lrs\ command\ (does\ nothing).\r\n\ @return\ returns\ the\ log\r\n
+comment2.params=
+comment2.target=boolean\ isDamaged()
+comment2.text=\r\n\ Checks\ to\ see\ if\ this\ system\ is\ operable.\r\n\ @return\ returns\ true\ if\ this\ system\ is\ not\ operational.\r\n\ (damage\ value\ less\ than\ 0.0)\r\n
+numComments=3

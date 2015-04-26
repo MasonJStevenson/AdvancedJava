@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=newShip
+comment0.target=PhaserControl(starships.Starship)
+comment0.text=\r\n\ Constructor\ for\ the\ phaser\ control\ module.\r\n\ @param\ newShip\ a\ reference\ to\ the\ ship\ containing\ this\ module.\r\n
+comment1.params=commands
+comment1.target=java.lang.String\ launch(java.lang.String[])
+comment1.text=\r\n\ If\ there\ are\ any\ ememies\ in\ the\ quadrant,\ \r\n\ targets\ each\ one\ and\ fires\ a\ phaser.\r\n\ \r\n\ @param\ commands\ the\ commands\ for\ this\ module\ (1).\r\n\ @return\ returns\ the\ log\r\n
+comment2.params=enemyData\ damageTemp\ com
+comment2.target=boolean\ targetEnemies(int[][],\ int,\ LibraryComputer)
+comment3.params=enemyData\ row\ targetRow\ targetCol
+comment3.target=int\ calculateDamage(int[][],\ int,\ double,\ double)
+comment4.params=
+comment4.target=boolean\ isDamaged()
+comment4.text=\r\n\ Checks\ to\ see\ if\ this\ system\ is\ operable.\r\n\ @return\ returns\ true\ if\ this\ system\ is\ not\ operational.\r\n\ (damage\ value\ less\ than\ 0.0)\r\n
+numComments=5

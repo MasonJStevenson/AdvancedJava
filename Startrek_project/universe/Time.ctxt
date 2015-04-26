@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=int\ getStart()
+comment0.text=\r\n\ Accessor\ method\ for\ start.\r\n\ @return\ returns\ start.\r\n
+comment1.params=
+comment1.target=int\ getEnd()
+comment1.text=\r\n\ Accessor\ method\ for\ end.\r\n\ @return\ returns\ end.\r\n
+comment2.params=
+comment2.target=double\ getCurrent()
+comment2.text=\r\n\ Accessor\ method\ for\ current.\r\n\ @return\ returns\ current.\r\n
+comment3.params=newStart
+comment3.target=void\ setStart(int)
+comment3.text=\r\n\ Mutator\ method\ for\ start.\r\n\ @param\ newStart\ a\ new\ starting\ date.\r\n
+comment4.params=newEnd
+comment4.target=void\ setEnd(int)
+comment4.text=\r\n\ Mutator\ method\ for\ end.\r\n\ @param\ newEnd\ a\ new\ ending\ time.\r\n
+comment5.params=newCurrent
+comment5.target=void\ setCurrent(int)
+comment5.text=\r\n\ Mutator\ method\ for\ current.\r\n\ @param\ newCurrent\ a\ new\ current\ date.\r\n
+comment6.params=incValue
+comment6.target=void\ increment(double)
+comment6.text=\r\n\ Mutator\ method\ for\ current.\r\n\ @param\ incValue\ a\ value\ to\ add\ to\ the\ current\ date.\r\n
+comment7.params=
+comment7.target=boolean\ isOut()
+comment7.text=\r\n\ Checks\ to\ see\ if\ the\ current\ date\ is\ past\ the\ end\ date.\r\n\ @return\ returns\ true\ if\ time\ has\ run\ out.\r\n
+numComments=8

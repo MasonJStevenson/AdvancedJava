@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=TractorBeam()
+comment0.text=\r\n\ Constructor\ for\ tractor\ beam\ module.\r\n
+comment1.params=commands
+comment1.target=java.lang.String\ launch(java.lang.String[])
+comment1.text=\r\n\ Launches\ this\ module.\r\n\ @param\ commands\ a\ list\ of\ commands\ for\ this\ module.\r\n\ @return\ returns\ the\ log.\r\n
+comment2.params=
+comment2.target=boolean\ isEngaged()
+comment2.text=\r\n\ Checks\ to\ see\ if\ this\ modules\ is\ engaged.\r\n\ \r\n\ @return\ returns\ true\ if\ this\ module\ is\ engaged\r\n
+comment3.params=
+comment3.target=void\ disengage()
+comment3.text=\r\n\ Disengages\ beam.\r\n
+comment4.params=
+comment4.target=boolean\ isDamaged()
+comment4.text=\r\n\ Checks\ to\ see\ if\ this\ module\ is\ damaged.\r\n\ @return\ returns\ true\ if\ this\ module\ is\ damaged.\r\n
+numComments=5

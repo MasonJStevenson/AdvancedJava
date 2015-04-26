@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=symbol
+comment0.target=SpaceItem(java.lang.String)
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment1.text=\ Return\ this\ item's\ symbol.\r\n\ @return\ string\ representation\ of\ this\ space\ item.\r\n
+numComments=2

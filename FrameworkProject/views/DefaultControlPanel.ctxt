@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=newController
+comment0.target=DefaultControlPanel(model.CalcController)
+comment0.text=\r\n\ Constructor\ for\ DefaultControlPanel.\r\n\ @param\ newController\ A\ controller\ for\ this\ panel's\ parent\ gui.\r\n
+comment1.params=arg0
+comment1.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment2.params=arg0
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=arg0
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment4.params=arg0
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment5.params=arg0
+comment5.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment6.params=arg0
+comment6.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment7.params=
+comment7.target=void\ initOperatorButtons()
+comment8.params=
+comment8.target=void\ initActionButtons()
+numComments=9

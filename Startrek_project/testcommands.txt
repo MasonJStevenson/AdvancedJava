@@ -1,0 +1,1 @@
+[shi 500, nav 1 1, pha 500, nav 1 2, lrs, nav 7 1, com 1]

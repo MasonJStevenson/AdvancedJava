@@ -1,0 +1,8 @@
+y
+pha
+3000
+aye
+q
+nay
+
+

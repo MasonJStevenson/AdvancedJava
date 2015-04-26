@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=command
+comment0.target=java.lang.String\ processCommand(java.lang.String)
+comment0.text=\r\n\ Processes\ a\ command\ of\ type\ (num)\ operator\ (num).\r\n\ \r\n\ @param\ command\ the\ command\ to\ process\r\n\ @return\ Returns\ the\ result\ of\ the\ calculation.\r\n
+comment1.params=str
+comment1.target=boolean\ isFloatingPoint(java.lang.String)
+comment2.params=str
+comment2.target=boolean\ isInteger(java.lang.String)
+comment3.params=left\ op\ right
+comment3.target=java.lang.String\ doCommand(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment4.params=left\ op\ right
+comment4.target=java.lang.String\ operate(int,\ java.lang.String,\ int)
+comment5.params=left\ op\ right
+comment5.target=java.lang.String\ operate(double,\ java.lang.String,\ double)
+numComments=6

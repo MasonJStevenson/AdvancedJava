@@ -1,0 +1,115 @@
+
+ *************************************
+ *                                   *
+ *                                   *
+ *      * * Super Star Trek * *      *
+ *                                   *
+ *                                   *
+ *************************************
+Do you need instructions (y/n):
+                         ------*------
+         -------------   `---  ------'
+         `-------- --'      / /
+                  \\-------  --
+                  '-----------'
+
+       The USS Enterprise --- NCC - 1701-33
+
+
+Your orders are as follows:
+   Destroy the 4 Klingon warships which have invaded
+the galaxy before they can attack Federation Headquarters
+on stardate 2626. This gives you 26 days. There are
+ 4 starbases in the galaxy for resupplying your ship.
+
+Your mission begins with your starship located
+in the galactic quadrant Arcturus.
+  -1--2--3--4--5--6--7--8-
+1        *                    Stardate            2600
+2           *                 Condition           GREEN
+3                             Quadrant            7, 6
+4        *                    Sector              5, 5
+5     *     * <0>             Photon Torpedoes    10
+6                 *           Total Energy        3000
+7                    *        Shields             0
+8                             Klingons Remaining  4
+  ------------------------
+
+Command? 
+Course (0-9): 
+Lt. Sulu reports:  Incorrect course data, sir!
+Command? 
+Course (0-9): 
+Lt. Sulu reports:  Incorrect course data, sir!
+Command? 
+Course (0-9): 
+Lt. Sulu reports:  Incorrect course data, sir!
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Chief Engineer Scott reports:
+  The engines won't take warp 10.0!
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Damage Control report:
+
+    Photon Tubes damaged
+
+LT. Uhura reports:
+  Message from Starfleet Command:
+  Permission to attempt crossing of galactic perimeter
+  is hereby *denied*. Shut down your engines.
+Chief Engineer Scott reports:
+  Warp Engines shut down at sector 5, 8 of quadrant 7, 8.
+  -1--2--3--4--5--6--7--8-
+1        *                    Stardate            2602
+2           *                 Condition           GREEN
+3                             Quadrant            7, 8
+4        *                    Sector              5, 8
+5     *     *          <0>    Photon Torpedoes    10
+6                 *           Total Energy        2852
+7                    *        Shields             0
+8                             Klingons Remaining  4
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+  -1--2--3--4--5--6--7--8-
+1        *                    Stardate            2602
+2           *                 Condition           GREEN
+3                             Quadrant            7, 8
+4        *                    Sector              5, 7
+5     *     *       <0>       Photon Torpedoes    10
+6                 *           Total Energy        2841
+7                    *        Shields             0
+8                             Klingons Remaining  4
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Now entering Regulus quadrant...
+   -1--2--3--4--5--6--7--8-
+1                             Stardate            2604
+2                             Condition           GREEN
+3                             Quadrant            6, 8
+4           *                 Sector              5, 7
+5                 * <0>       Photon Torpedoes    10
+6                             Total Energy        2805
+7                             Shields             0
+8                             Klingons Remaining  4
+  ------------------------
+
+Command? 
+There were 4 Klingon Battlecruisers left at the end of your mission.
+The Federation is in need of a new starship commander for a similar mission.
+If there is a volunteer, let him step forward and enter 'aye': 
+
+
+

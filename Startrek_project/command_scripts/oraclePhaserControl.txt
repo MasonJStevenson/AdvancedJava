@@ -1,0 +1,148 @@
+
+ *************************************
+ *                                   *
+ *                                   *
+ *      * * Super Star Trek * *      *
+ *                                   *
+ *                                   *
+ *************************************
+Do you need instructions (y/n):
+                         ------*------
+         -------------   `---  ------'
+         `-------- --'      / /
+                  \\-------  --
+                  '-----------'
+
+       The USS Enterprise --- NCC - 1701-0
+
+
+Your orders are as follows:
+   Destroy the 15 Klingon warships which have invaded
+the galaxy before they can attack Federation Headquarters
+on stardate 2134. This gives you 34 days. There are
+ 2 starbases in the galaxy for resupplying your ship.
+
+Your mission begins with your starship located
+in the galactic quadrant Deneb.
+  -1--2--3--4--5--6--7--8-
+1                             Stardate            2100
+2        *                    Condition           GREEN
+3  *                          Quadrant            2, 5
+4           *                 Sector              6, 3
+5                 *           Photon Torpedoes    10
+6       <0>                   Total Energy        3000
+7                 *           Shields             0
+8                 *           Klingons Remaining  15
+  ------------------------
+
+Command? 
+Energy available = 3000
+Input number of units to Shields: 
+Deflector Control Room report:
+  'Shields now at 1000 units per your command.'
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Now entering Deneb quadrant...
+ Combat Area  Condition Red
+  -1--2--3--4--5--6--7--8-
+1              *              Stardate            2102
+2              *              Condition           *RED*
+3  *                          Quadrant            2, 6
+4  * +K+                      Sector              6, 3
+5                             Photon Torpedoes    10
+6       <0>                   Total Energy        2964
+7                             Shields             1000
+8        *                    Klingons Remaining  15
+  ------------------------
+
+Command? 
+  -1--2--3--4--5--6--7--8-
+1              *              Stardate            2102
+2              *              Condition           *RED*
+3  *                          Quadrant            2, 6
+4  * +K+                      Sector              6, 3
+5                             Photon Torpedoes    10
+6       <0>                   Total Energy        2964
+7                             Shields             1000
+8        *                    Klingons Remaining  15
+  ------------------------
+
+Command? 
+Phasers locked on target;
+
+Energy available = 1964 units
+
+Number of units to fire: 
+Command? 
+Phasers locked on target;
+
+Energy available = 1964 units
+
+Number of units to fire: 
+Invalid integer.
+Command? 
+Phasers locked on target;
+
+Energy available = 1964 units
+
+Number of units to fire: 
+Not enough energy available.
+
+Command? 
+Phasers locked on target;
+
+Energy available = 1964 units
+
+Number of units to fire: 
+110 unit hit on Klingon at sector 4, 2
+79 unit hit on Enterprise from sector 4, 2    <Shields down to 921 units>
+Damage Control reports
+   'Phaser Control' damaged by hit
+Command? 
+  -1--2--3--4--5--6--7--8-
+1              *              Stardate            2102
+2              *              Condition           *RED*
+3  *                          Quadrant            2, 6
+4  * +K+                      Sector              6, 3
+5                             Photon Torpedoes    10
+6       <0>                   Total Energy        2585
+7                             Shields             921
+8        *                    Klingons Remaining  15
+  ------------------------
+
+Command? 
+Phasers Inoperative
+
+Command? 
+Enter one of the following:
+  nav - To Set Course
+  srs - Short Range Sensors
+  lrs - Long Range Sensors
+  pha - Phasers
+  tor - Photon Torpedoes
+  shi - Shield Control
+  dam - Damage Control
+  com - Library Computer
+  q - Resign Command
+
+Command? 
+  -1--2--3--4--5--6--7--8-
+1              *              Stardate            2102
+2              *              Condition           *RED*
+3  *                          Quadrant            2, 6
+4  * +K+                      Sector              6, 3
+5                             Photon Torpedoes    10
+6       <0>                   Total Energy        2585
+7                             Shields             921
+8        *                    Klingons Remaining  15
+  ------------------------
+
+Command? 
+There were 15 Klingon Battlecruisers left at the end of your mission.
+The Federation is in need of a new starship commander for a similar mission.
+If there is a volunteer, let him step forward and enter 'aye': 
+
+
+

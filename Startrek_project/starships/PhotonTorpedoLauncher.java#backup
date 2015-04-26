@@ -1,0 +1,196 @@
+package starships;
+import util.*;
+
+/**
+ * Write a description of class ProtonTorpedoLauncher here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class PhotonTorpedoLauncher extends Subsystem
+{
+    SpaceMath math;
+    public PhotonTorpedoLauncher(Starship newShip, SpaceMath newMath)
+    {
+        super("Photon Tubes", newShip);
+        math = newMath;
+    }
+    
+    public void launch(LoggingScanner logscanner)
+    {
+        ///int c2, c3, x3, y3, x5;
+        String sTemp;
+        double course;
+        double rowTemp; //x1
+        double colTemp; //y1
+        double row; //x
+        double col; //y
+        int rowInt; //x3
+        int colInt; //y3
+        int temp;
+        int[][] directions = new int[][]{{ 0, 0, -1, -1, -1,  0,  1, 1, 1, 0,},
+            { 1, 1,  1,  0, -1, -1, -1, 0, 1, 1 }};
+
+        if (ship.getTorpedos() <= 0)
+        {
+            System.out.println("All photon torpedoes expended\n");
+            return;
+        }
+        if (isDamaged())
+        {
+            System.out.println("Photon Tubes not operational\n");
+            return;
+        }
+
+        System.out.println("Course (0-9): ");
+
+        sTemp = logscanner.nextLine();
+
+        System.out.println("\n");
+        try
+        {
+            course = Double.parseDouble(sTemp);
+        }
+        catch (NumberFormatException ex)
+        {
+            course = -1.0;
+        }
+
+        if (course == 9.0)
+        {
+            course = 1.0;
+        }
+
+        if (course < 0 || course > 9.0)
+        {
+            System.out.println("Ensign Chekov reports:\n");
+            System.out.println("  Incorrect course data, sir!\n");
+            return;
+        }
+
+        ship.setEnergy(ship.getEnergy() - 2);
+        ship.fireTorpedo();
+
+        temp = math.cint(course);
+        ///c3 = c2 + 1;
+
+        rowTemp = directions[0][temp] + (directions[0][temp + 1] - directions[0][temp]) * (course - temp);
+        colTemp = directions[1][temp] + (directions[1][temp + 1] - directions[1][temp]) * (course - temp);
+
+        row = ship.getSectorRow() + rowTemp;
+        col = ship.getSectorCol() + colTemp;
+
+        rowInt = math.cint(row);
+        colInt = math.cint(col);
+
+        temp = 0;
+
+        System.out.println("Torpedo Track:\n");
+
+        while (rowInt >= 1 && rowInt <= 8 && colInt >= 1 && colInt <= 8)
+        {
+            System.out.printf("    %d, %d\n", rowInt, colInt);
+
+            //sector at rowInt, colInt is not empty
+            if (!ship.getQuadrant().checkEmpty(rowInt, colInt))
+            {
+                torpedoHit();
+                ship.getQuadrant().enemiesShoot(math, ship);
+                return;
+            }
+
+            row = row + rowTemp;
+            col = col + colTemp;
+
+            rowInt = math.cint(row);
+            rowInt = math.cint(col);
+        }
+
+        System.out.println("Torpedo Missed\n");
+
+        ship.getQuadrant().enemiesShoot(math, ship);
+    }
+    
+    private void torpedoHit()
+    {
+        /*
+        int i, x3, y3;
+
+        x3 = cint(x);
+        y3 = cint(y);
+
+        z3 = 0;
+
+        sA = " * ";
+        string_compare();
+
+        if (z3 == 1)
+        {
+            System.out.print("Star at " + x3 +", " + y3 + " absorbed torpedo energy.\n");
+            return;
+        }
+
+        sA = "+K+";
+        string_compare();
+
+        if (z3 == 1)
+        {
+            System.out.print("*** Klingon Destroyed ***\n");
+            k3--;
+            k9--;
+
+            if (k9 <= 0)
+                won_game();
+
+            for (i=0; i<=3; i++)
+                if (x3 == k[i][1] && y3 == k[i][2])
+                    // Negative energy indicates dead klingon
+                    k[i][3] = -1;
+        }
+
+        sA = ">!<";
+        string_compare();
+
+        if (z3 == 1)
+        {
+            System.out.print("*** Starbase Destroyed ***\n");
+            b3--;
+            b9--;
+
+            // This can only be true if you've killed all the klingons on your last day.
+            // But this doesn't make sense in the game world, so let's remove it.
+            // if (b9 <= 0 && k9 <= t - t0 - t9)
+            
+            // Changed to: IF all the starbases are gone THEN
+            if (b9 <= 0)
+            {
+                System.out.print("That does it, Captain!!  ");
+                System.out.print("You are hereby relieved of command\n");
+                System.out.print("and sentenced to 99 stardates of hard");
+                System.out.print("labor on Cygnus 12!!\n");
+                resign_commision();
+            }
+            else
+            {
+                System.out.print("Starfleet Command reviewing your record to consider\n");
+                System.out.print("court martial!\n");
+            }
+
+            d0 = 0;    // Undock 
+        }
+
+        z1 = x3;
+        z2 = y3;
+        sA = "   ";
+        insert_in_quadrant();
+
+        g[q1][q2] = (k3 * 100) + (b3 * 10) + s3;
+        z[q1][q2] = g[q1][q2]; */
+    }
+
+    
+    public boolean isDamaged()
+    {
+        return damage < 0.0;
+    }
+}

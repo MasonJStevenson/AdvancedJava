@@ -1,0 +1,614 @@
+
+ *************************************
+ *                                   *
+ *                                   *
+ *      * * Super Star Trek * *      *
+ *                                   *
+ *                                   *
+ *************************************
+Do you need instructions (y/n):
+                         ------*------
+         -------------   `---  ------'
+         `-------- --'      / /
+                  \\-------  --
+                  '-----------'
+
+       The USS Enterprise --- NCC - 1701-0
+
+
+Your orders are as follows:
+   Destroy the 15 Klingon warships which have invaded
+the galaxy before they can attack Federation Headquarters
+on stardate 2134. This gives you 34 days. There are
+ 2 starbases in the galaxy for resupplying your ship.
+
+Your mission begins with your starship located
+in the galactic quadrant Deneb.
+  -1--2--3--4--5--6--7--8-
+1                             Stardate            2100
+2        *                    Condition           GREEN
+3  *                          Quadrant            2, 5
+4           *                 Sector              6, 3
+5                 *           Photon Torpedoes    10
+6       <0>                   Total Energy        3000
+7                 *           Shields             0
+8                 *           Klingons Remaining  15
+  ------------------------
+
+Command? 
+Energy available = 3000
+Input number of units to Shields: 
+Deflector Control Room report:
+  'Shields now at 1000 units per your command.'
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Now entering Rigel quadrant...
+   -1--2--3--4--5--6--7--8-
+1                       *     Stardate            2101
+2                             Condition           GREEN
+3     *                       Quadrant            2, 4
+4     *                       Sector              6, 7
+5  *     *  *                 Photon Torpedoes    10
+6                   <0>       Total Energy        2972
+7                             Shields             1000
+8                             Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Damage Control report:
+
+    Library-Computer damaged
+
+Now entering Deneb quadrant...
+   -1--2--3--4--5--6--7--8-
+1                             Stardate            2103
+2                             Condition           GREEN
+3     *                       Quadrant            2, 5
+4        *        *           Sector              6, 3
+5                             Photon Torpedoes    10
+6       <0> *        *        Total Energy        2944
+7                             Shields             1000
+8                    *        Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Now entering Rigel quadrant...
+   -1--2--3--4--5--6--7--8-
+1                       *     Stardate            2104
+2                             Condition           GREEN
+3                 *           Quadrant            2, 4
+4                             Sector              6, 7
+5  *        *  *              Photon Torpedoes    10
+6                   <0>       Total Energy        2916
+7                             Shields             1000
+8  *                          Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Now entering Deneb quadrant...
+   -1--2--3--4--5--6--7--8-
+1                       *     Stardate            2106
+2           *                 Condition           GREEN
+3                    *        Quadrant            2, 5
+4                             Sector              6, 3
+5                             Photon Torpedoes    10
+6       <0> *                 Total Energy        2888
+7  *                    *     Shields             1000
+8                             Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Now entering Rigel quadrant...
+   -1--2--3--4--5--6--7--8-
+1        *                    Stardate            2107
+2              *              Condition           GREEN
+3              *              Quadrant            2, 4
+4                    *        Sector              6, 7
+5  *                          Photon Torpedoes    10
+6                   <0>       Total Energy        2860
+7                             Shields             1000
+8                 *           Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Now entering Deneb quadrant...
+   -1--2--3--4--5--6--7--8-
+1     *                       Stardate            2109
+2              *              Condition           GREEN
+3     *        *              Quadrant            2, 5
+4                             Sector              6, 3
+5  *                          Photon Torpedoes    10
+6       <0>                   Total Energy        2832
+7                             Shields             1000
+8        *                    Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Now entering Rigel quadrant...
+   -1--2--3--4--5--6--7--8-
+1                 *  *        Stardate            2110
+2           *                 Condition           GREEN
+3  *                          Quadrant            2, 4
+4                             Sector              6, 7
+5                             Photon Torpedoes    10
+6                   <0>       Total Energy        2804
+7     *                       Shields             1000
+8                 *           Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Now entering Deneb quadrant...
+   -1--2--3--4--5--6--7--8-
+1     *           *           Stardate            2112
+2                       *     Condition           GREEN
+3                       *     Quadrant            2, 5
+4                             Sector              6, 3
+5                 *           Photon Torpedoes    10
+6       <0>                   Total Energy        2776
+7                             Shields             1000
+8                    *        Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Damage Control report:
+
+    Warp Engines state of repair improved
+
+Now entering Rigel quadrant...
+   -1--2--3--4--5--6--7--8-
+1                             Stardate            2113
+2              *              Condition           GREEN
+3                       *     Quadrant            2, 4
+4  *                          Sector              6, 7
+5     *  *                    Photon Torpedoes    10
+6                   <0>       Total Energy        2748
+7        *                    Shields             1000
+8                             Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Damage Control report:
+
+    Library-Computer repair completed
+
+Now entering Deneb quadrant...
+   -1--2--3--4--5--6--7--8-
+1                             Stardate            2115
+2                             Condition           GREEN
+3     *                       Quadrant            2, 5
+4                             Sector              6, 3
+5                             Photon Torpedoes    10
+6       <0>       *           Total Energy        2720
+7              *              Shields             1000
+8  *  *  *                    Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Now entering Rigel quadrant...
+   -1--2--3--4--5--6--7--8-
+1  *              *           Stardate            2116
+2  *        *                 Condition           GREEN
+3                             Quadrant            2, 4
+4                 *           Sector              6, 7
+5                             Photon Torpedoes    10
+6                   <0>       Total Energy        2692
+7                             Shields             1000
+8           *                 Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Now entering Deneb quadrant...
+   -1--2--3--4--5--6--7--8-
+1                             Stardate            2118
+2                             Condition           GREEN
+3           *                 Quadrant            2, 5
+4        *                    Sector              6, 3
+5              *  *           Photon Torpedoes    10
+6       <0>                   Total Energy        2664
+7                 *           Shields             1000
+8     *                       Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Damage Control report:
+
+    Short Range Sensors damaged
+
+Now entering Rigel quadrant...
+ *** Short Range Sensors are out ***
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Now entering Deneb quadrant...
+ *** Short Range Sensors are out ***
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Now entering Rigel quadrant...
+ *** Short Range Sensors are out ***
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Damage Control report:
+
+    Library-Computer state of repair improved
+
+Warp Engines shut down at sector 6, 8 due to bad navigation.
+
+*** Short Range Sensors are out ***
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Damage Control report:
+
+    Short Range Sensors repair completed
+
+  -1--2--3--4--5--6--7--8-
+1              *              Stardate            2123
+2                             Condition           GREEN
+3                 *           Quadrant            2, 4
+4                             Sector              6, 3
+5     *              *        Photon Torpedoes    10
+6     * <0>             *     Total Energy        2552
+7                             Shields             1000
+8                             Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+  -1--2--3--4--5--6--7--8-
+1              *              Stardate            2124
+2                             Condition           GREEN
+3                 *           Quadrant            2, 4
+4                             Sector              6, 7
+5     *              *        Photon Torpedoes    10
+6     *             <0> *     Total Energy        2538
+7                             Shields             1000
+8                             Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+  -1--2--3--4--5--6--7--8-
+1              *              Stardate            2124
+2                             Condition           GREEN
+3                 *           Quadrant            2, 4
+4                             Sector              6, 3
+5     *              *        Photon Torpedoes    10
+6     * <0>             *     Total Energy        2524
+7                             Shields             1000
+8                             Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Damage Control report:
+
+    Damage Control state of repair improved
+
+  -1--2--3--4--5--6--7--8-
+1              *              Stardate            2125
+2                             Condition           GREEN
+3                 *           Quadrant            2, 4
+4                             Sector              6, 7
+5     *              *        Photon Torpedoes    10
+6     *             <0> *     Total Energy        2510
+7                             Shields             1000
+8                             Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+  -1--2--3--4--5--6--7--8-
+1              *              Stardate            2125
+2                             Condition           GREEN
+3                 *           Quadrant            2, 4
+4                             Sector              6, 3
+5     *              *        Photon Torpedoes    10
+6     * <0>             *     Total Energy        2496
+7                             Shields             1000
+8                             Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Damage Control report:
+
+    Shield Control state of repair improved
+
+  -1--2--3--4--5--6--7--8-
+1              *              Stardate            2126
+2                             Condition           GREEN
+3                 *           Quadrant            2, 4
+4                             Sector              6, 7
+5     *              *        Photon Torpedoes    10
+6     *             <0> *     Total Energy        2482
+7                             Shields             1000
+8                             Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+  -1--2--3--4--5--6--7--8-
+1              *              Stardate            2126
+2                             Condition           GREEN
+3                 *           Quadrant            2, 4
+4                             Sector              6, 3
+5     *              *        Photon Torpedoes    10
+6     * <0>             *     Total Energy        2468
+7                             Shields             1000
+8                             Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+  -1--2--3--4--5--6--7--8-
+1              *              Stardate            2127
+2                             Condition           GREEN
+3                 *           Quadrant            2, 4
+4                             Sector              6, 7
+5     *              *        Photon Torpedoes    10
+6     *             <0> *     Total Energy        2454
+7                             Shields             1000
+8                             Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Damage Control report:
+
+    Long Range Sensors state of repair improved
+
+  -1--2--3--4--5--6--7--8-
+1              *              Stardate            2127
+2                             Condition           GREEN
+3                 *           Quadrant            2, 4
+4                             Sector              6, 3
+5     *              *        Photon Torpedoes    10
+6     * <0>             *     Total Energy        2440
+7                             Shields             1000
+8                             Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+  -1--2--3--4--5--6--7--8-
+1              *              Stardate            2128
+2                             Condition           GREEN
+3                 *           Quadrant            2, 4
+4                             Sector              6, 7
+5     *              *        Photon Torpedoes    10
+6     *             <0> *     Total Energy        2426
+7                             Shields             1000
+8                             Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Damage Control report:
+
+    Photon Tubes damaged
+
+  -1--2--3--4--5--6--7--8-
+1              *              Stardate            2128
+2                             Condition           GREEN
+3                 *           Quadrant            2, 4
+4                             Sector              6, 3
+5     *              *        Photon Torpedoes    10
+6     * <0>             *     Total Energy        2412
+7                             Shields             1000
+8                             Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+  -1--2--3--4--5--6--7--8-
+1              *              Stardate            2129
+2                             Condition           GREEN
+3                 *           Quadrant            2, 4
+4                             Sector              6, 7
+5     *              *        Photon Torpedoes    10
+6     *             <0> *     Total Energy        2398
+7                             Shields             1000
+8                             Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+  -1--2--3--4--5--6--7--8-
+1              *              Stardate            2129
+2                             Condition           GREEN
+3                 *           Quadrant            2, 4
+4                             Sector              6, 3
+5     *              *        Photon Torpedoes    10
+6     * <0>             *     Total Energy        2384
+7                             Shields             1000
+8                             Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+  -1--2--3--4--5--6--7--8-
+1              *              Stardate            2130
+2                             Condition           GREEN
+3                 *           Quadrant            2, 4
+4                             Sector              6, 7
+5     *              *        Photon Torpedoes    10
+6     *             <0> *     Total Energy        2370
+7                             Shields             1000
+8                             Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Damage Control report:
+
+    Photon Tubes repair completed
+
+  -1--2--3--4--5--6--7--8-
+1              *              Stardate            2130
+2                             Condition           GREEN
+3                 *           Quadrant            2, 4
+4                             Sector              6, 3
+5     *              *        Photon Torpedoes    10
+6     * <0>             *     Total Energy        2356
+7                             Shields             1000
+8                             Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+  -1--2--3--4--5--6--7--8-
+1              *              Stardate            2131
+2                             Condition           GREEN
+3                 *           Quadrant            2, 4
+4                             Sector              6, 7
+5     *              *        Photon Torpedoes    10
+6     *             <0> *     Total Energy        2342
+7                             Shields             1000
+8                             Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+  -1--2--3--4--5--6--7--8-
+1              *              Stardate            2131
+2                             Condition           GREEN
+3                 *           Quadrant            2, 4
+4                             Sector              6, 3
+5     *              *        Photon Torpedoes    10
+6     * <0>             *     Total Energy        2328
+7                             Shields             1000
+8                             Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+  -1--2--3--4--5--6--7--8-
+1              *              Stardate            2132
+2                             Condition           GREEN
+3                 *           Quadrant            2, 4
+4                             Sector              6, 7
+5     *              *        Photon Torpedoes    10
+6     *             <0> *     Total Energy        2314
+7                             Shields             1000
+8                             Klingons Remaining  15
+  ------------------------
+
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Damage Control report:
+
+    Short Range Sensors damaged
+
+*** Short Range Sensors are out ***
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+*** Short Range Sensors are out ***
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+*** Short Range Sensors are out ***
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+*** Short Range Sensors are out ***
+Command? 
+Course (0-9): 
+Warp Factor (0-8): 
+
+Damage Control report:
+
+    Short Range Sensors repair completed
+
+You ran out of time to complete your mission.
+It is stardate 2134.
+
+There were 15 Klingon Battlecruisers left at the end of your mission.
+The Federation is in need of a new starship commander for a similar mission.
+If there is a volunteer, let him step forward and enter 'aye': 
+
+
+

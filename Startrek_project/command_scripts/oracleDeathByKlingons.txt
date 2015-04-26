@@ -1,0 +1,18 @@
+Your orders are as follows:
+   Destroy the 15 Klingon warships which have invaded
+the galaxy before they can attack Federation Headquarters
+on stardate 2134. This gives you 34 days. There are
+ 2 starbases in the galaxy for resupplying your ship.
+Your mission begins with your starship located
+in the galactic quadrant Deneb.
+Now entering Deneb quadrant...
+Combat Area  Condition Red
+Shields Dangerously Low
+111 unit hit on Enterprise from sector 8, 7
+
+The Enterprise has been destroyed. 
+The Federation will be conquered.
+It is stardate 2102.
+
+There were 15 Klingon Battlecruisers left at the
+ end of your mission.

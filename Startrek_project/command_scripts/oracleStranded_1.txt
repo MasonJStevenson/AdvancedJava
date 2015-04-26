@@ -1,0 +1,64 @@
+
+ *************************************
+ *                                   *
+ *                                   *
+ *      * * Super Star Trek * *      *
+ *                                   *
+ *                                   *
+ *************************************
+Do you need instructions (y/n):
+                         ------*------
+         -------------   `---  ------'
+         `-------- --'      / /
+                  \\-------  --
+                  '-----------'
+
+       The USS Enterprise --- NCC - 1701-1
+
+
+Your orders are as follows:
+   Destroy the 22 Klingon warships which have invaded
+the galaxy before they can attack Federation Headquarters
+on stardate 2634. This gives you 34 days. There are
+ 4 starbases in the galaxy for resupplying your ship.
+
+Your mission begins with your starship located
+in the galactic quadrant Vega.
+Combat Area  Condition Red
+Shields Dangerously Low
+  -1--2--3--4--5--6--7--8-
+1                             Stardate            2600
+2 <0>                *        Condition           *RED*
+3       +K+      +K+          Quadrant            4, 4
+4                             Sector              2, 1
+5                             Photon Torpedoes    10
+6                             Total Energy        3000
+7                             Shields             0
+8                             Klingons Remaining  22
+  ------------------------
+
+Command? 
+Phasers locked on target;
+
+Energy available = 3000 units
+
+Number of units to fire: 
+2050 unit hit on Klingon at sector 3, 6
+*** Klingon Destroyed ***
+
+2030 unit hit on Klingon at sector 3, 3
+*** Klingon Destroyed ***
+
+** Fatal Error **   
+You've just stranded your ship in space.
+You have insufficient maneuvering energy,
+and Shield Control is presently
+incapable of cross circuiting to engine room!!
+It is stardate 2600.
+
+There were 20 Klingon Battlecruisers left at the end of your mission.
+The Federation is in need of a new starship commander for a similar mission.
+If there is a volunteer, let him step forward and enter 'aye': 
+
+
+

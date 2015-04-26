@@ -1,0 +1,15 @@
+n
+nav
+7
+1
+nav
+1
+4
+lrs
+q
+
+
+# check that a new quadrant is drawn if we warp in 
+# and hit the end of the galaxy
+
+

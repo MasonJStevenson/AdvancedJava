@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=source\ report
+comment0.target=LoggingScanner(java.io.InputStream,\ boolean)
+comment0.text=\ Construct\ this\ scanner\ from\ the\ given\ input\ source,\r\n\ \ and\ indicate\ whether\ a\ report\ is\ desired\ or\ not.\r\n\ \ During\ production\ report\ is\ usually\ false.\r\n\ \ \r\n\ \ @param\ source\ the\ source\r\n\ \ @param\ report\ the\ report\r\n
+comment1.params=
+comment1.target=java.lang.String\ nextLine()
+comment1.text=\ \r\n\ Return\ the\ next\ line\ of\ input\ and\ log\ it\ to\ the\ buffer.\r\n\ @return\ returns\ the\ nextLine.\r\n
+comment2.params=
+comment2.target=boolean\ hasNextLine()
+comment2.text=\ \r\n\ Check\ if\ more\ input\ is\ available.\r\n\ \r\n\ @return\ returns\ true\ or\ false.\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\ Return\ a\ printable\ representation\ of\ the\ buffer,\r\n\ \ \ if\ doReport\ is\ true.\r\n\ \ \ \r\n\ \ \ @return\ returns\ result.\r\n
+numComments=4
